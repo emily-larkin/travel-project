@@ -1,0 +1,18 @@
+body {
+    background-color: #FEFAEC;
+}
+
+.searchBar {
+    background-color: #625772;
+    margin-top: 23%;
+    margin-left: 21%;
+}
+
+::placeholder{
+    color: white;
+}
+
+.col-4 {
+    height: 200px;
+    border: solid 2px black;
+}

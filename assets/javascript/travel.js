@@ -64,7 +64,7 @@ $( document ).ready( function () {
       for ( var i = 0; i < response.data.length; i++ ) {
 
         var image = $( "<img src= " + response.data[i].images.fixed_width.url + ">" )
-          ( "#hiking" ).append( image );
+          ( "#surfing" ).append( image );
         console.log( image )
       }
     } )

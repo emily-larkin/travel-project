@@ -60,4 +60,10 @@ lat     Latitude of the location for which you would like to retrieve the weathe
 lon     Longitude of the location for which you would like to retrieve the weather forecast.
 
 Please note that our Free Plan requires you to display the following message prominently with a backlink:
+<<<<<<< HEAD
+Powered by <a href="https://www.amdoren.com">Amdoren</a>
+
+
+=======
 Powered by <a href="https://www.amdoren.com">Amdoren</a> -->
+>>>>>>> master

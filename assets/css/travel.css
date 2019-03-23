@@ -2,18 +2,50 @@ body {
     background-color: #FEFAEC;
 }
 .searchBar {
-    background-color: #625772;
-    margin-top: 23%;
-    margin-left: 21%;
+    background-color: #A9EEE6;
+    /* margin-top: 23%; */
+    margin-left: 95%;
+    width: 384px;
 }
 ::placeholder{
-    color: white;
+    color: black;
 }
+
+#hiking {
+    border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
+    border: solid 2px black;
+    height: 350px;
+}
+
+#skiing {
+    border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
+    border: solid 2px black;
+    height: 400px;
+}
+
+#mountainBike {
+    border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
+    border: solid 2px black;
+    height: 500px;
+}
+
+#surfing {
+    border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
+    border: solid 2px black;
+    height: 400px;
+}
+
+#skydiving {
+    border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
+    border: solid 2px black;
+    height: 450px;
+}
+
+#empty {
+    height: 80px;
+}
+
 .col-4 {
     height: 200px;
     border: solid 2px black;
 }
-Collapse
-
-
-

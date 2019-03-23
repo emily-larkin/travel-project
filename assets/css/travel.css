@@ -13,6 +13,30 @@ body {
 }
 
 .col-4 {
-    height: 200px;
+    height: 350px;
+}
+
+#hiking {
+    border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
+    border: solid 2px black;
+}
+
+#skiing {
+    border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
+    border: solid 2px black;
+}
+
+#mountainBike {
+    border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
+    border: solid 2px black;
+}
+
+#surfing {
+    border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
+    border: solid 2px black;
+}
+
+#skydiving {
+    border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
     border: solid 2px black;
 }

@@ -1,0 +1,90 @@
+
+body, html{
+    margin: 0px;
+}
+
+#bg-image{
+    background-image: url("../placeholder-images/skiing.jpg") ; 
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    height: 100vh;
+  }
+
+#activity-list{
+
+    background: #339955;
+
+    margin: 30px;
+
+    width: 1000px;
+
+    position: relative;
+
+    height: calc(100vh - 60px);
+
+    overflow: hidden;
+
+}
+
+.flex-container{
+    display: flex;
+
+    justify-content: flex-end;
+
+    position: relative;
+
+    z-index: 100000000000;
+
+
+}
+
+.list-item{
+    background: #ffffff;
+
+    margin: 10px;
+
+    height: 100px;
+}
+
+.top-buffer{
+    background: #339955;
+
+    position: absolute;
+
+    top: 0;
+
+    width: 100%;
+
+    height: 10px;
+}
+
+.bottom-buffer{
+    background: #339955;
+
+    position: absolute;
+
+    bottom: 0;
+
+    width: 100%;
+
+    height: 10px;
+}
+
+#scroll-list{
+    
+    overflow-y: scroll;
+
+    position: absolute;
+
+    top: 10px;
+
+    left: 0;
+
+    bottom: 10px;
+
+    right: -17px;
+}

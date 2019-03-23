@@ -1,0 +1,11 @@
+
+#output-body{
+    background-image: url("../placeholder-images/skiing.jpg") ; 
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    height: 100vh;
+  }

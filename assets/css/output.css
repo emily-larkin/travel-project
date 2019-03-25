@@ -25,6 +25,8 @@ body, html{
 
     height: calc(100vh - 60px);
 
+    overflow: hidden;
+
 }
 
 .flex-container{
@@ -75,10 +77,13 @@ body, html{
     
     overflow-y: scroll;
 
-    height: 100%;
-}
+    position: absolute;
 
-::-webkit-scrollbar {
-    width: 0px;  /* remove scrollbar space */
-    background: transparent;  /* optional: just make scrollbar invisible */
+    top: 10px;
+
+    left: 0;
+
+    bottom: 10px;
+
+    right: -17px;
 }

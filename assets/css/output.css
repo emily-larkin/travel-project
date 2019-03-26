@@ -1,9 +1,10 @@
-body, html{
+body,
+html {
     margin: 0px;
 }
 
-#bg-image{
-    background-image: url("../placeholder-images/skiing.jpg") ; 
+#bg-image {
+    background-image: url("../placeholder-images/skiing.jpg");
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -11,9 +12,9 @@ body, html{
     background-size: cover;
 
     height: 100vh;
-  }
+}
 
-#activity-list{
+#activity-list {
 
     background: #625772;
 
@@ -29,7 +30,7 @@ body, html{
 
 }
 
-.flex-container{
+.flex-container {
     display: flex;
 
     justify-content: flex-end;
@@ -41,7 +42,7 @@ body, html{
 
 }
 
-.list-item{
+.list-item {
     background: #ffffff;
 
     margin: 10px;
@@ -49,7 +50,7 @@ body, html{
     height: 100px;
 }
 
-.top-buffer{
+.top-buffer {
     background: #339955;
 
     position: absolute;
@@ -61,7 +62,7 @@ body, html{
     height: 10px;
 }
 
-.bottom-buffer{
+.bottom-buffer {
     background: #339955;
 
     position: absolute;
@@ -73,8 +74,8 @@ body, html{
     height: 10px;
 }
 
-#scroll-list{
-    
+#scroll-list {
+
     overflow-y: scroll;
 
     position: absolute;
@@ -84,6 +85,7 @@ body, html{
     left: 0;
 
     bottom: 10px;
+}
 
 ::-webkit-scrollbar {
     width: 0px;  /* remove scrollbar space */

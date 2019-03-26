@@ -23,9 +23,15 @@
         <!-- Firebase Reference -->
         <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
 
-    </head>
+    <!-- google sign on stuff  -->
+    <meta name="google-signin-scope" content="profile email">
+    <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+</head>
 
     <body>
+        <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark">Sign On</div>
 
         <!-- Home Page -->
 

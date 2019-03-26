@@ -1,6 +1,7 @@
 body {
     background-color: #FEFAEC;
 }
+
 .searchBar {
     background-color: #A9EEE6;
     /* margin-top: 23%; */
@@ -10,7 +11,8 @@ body {
     top: 376px;
     right: 475px;
 }
-::placeholder{
+
+::placeholder {
     color: black;
 }
 
@@ -72,4 +74,3 @@ body {
     height: 200px;
     border: solid 2px black;
 } */
-

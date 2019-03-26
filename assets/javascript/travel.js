@@ -1,4 +1,4 @@
-$( document ).ready( function () {
+$(document).ready(function () {
   // GLOBAL VARIABLES
 
   // Initial Values
@@ -15,64 +15,73 @@ $( document ).ready( function () {
     messagingSenderId: "549559435677"
   };
 
-  firebase.initializeApp( config );
+  firebase.initializeApp(config);
   var database = firebase.database();
 
 
   // FUNCTIONS
 
   // on click function to call the api, should use data- to input which activity is being clicked or searched
-  $( ".active" ).on( "click", function () {
+  $(".active").on("click", function () {
     // assigns the data attribute
-    var activitiesCall = $( this ).attr( "data-active" );
+    var activitiesCall = $(this).attr("data-active");
     // &limit=10 limits the response by 10
     activityQueryURL = 'http://api.amp.active.com/v2/search&q=' + activitiesCall + 'near=Salt%20Lake%20City,UT,US&show_distance=true&sort=distance&api_key=&limit=10';
 
     // link the api using ajax
-    $.ajax( {
-      url: activityQueryURL,
-      method: "GET"
-    } )
-      // .then( function ( response ) {
-      //   // var results = response.data;
-      // } );
-  } );
+    $.ajax({
+        url: activityQueryURL,
+        method: "GET"
+      })
+      .then(function (response) {
+        var results = response.data;
+        Untitled
+        $(".list-item").empty();
+        for (var i = 0; i < results.length; i++) {
+          // append location
+          // example: $("#giphy").prepend("<p>Rating of Giph: " + results[i].rating + "</p>");
+          $(".list-item").append("<h2>Location of Activity:" + +"</h2>")
+          // append distance
+          $(".list-item").append("<p>Distance of Activity: " + +"</p>")
+        }
+      });
+  });
 
 
   // Function to get giphy api's using user input(?)
   function showInfo() {
-    var activity = $( this ).attr( "data-name" );
-    console.log( activity );
+    var activity = $(this).attr("data-name");
+    console.log(activity);
     var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + activity + "&rating=g&api_key=CzAlbxJgZNeqUfc3v0PSdcxACwxhr5Zh&limit=1";
 
     // Use ajax to get gifs
 
-    $.ajax( {
+    $.ajax({
       url: queryURL,
       method: "GET"
 
-    } ).then( function ( response ) {
-      console.log( response );
-      for ( var i = 0; i < response.data.length; i++ ) {
+    }).then(function (response) {
+      console.log(response);
+      for (var i = 0; i < response.data.length; i++) {
 
-        var image = $( "<img src= " + response.data[i].images.fixed_width.url + ">" )
-          ( "#display" ).append( image );
+        var image = $("<img src= " + response.data[i].images.fixed_width.url + ">")
+          ("#display").append(image);
       }
-    } )
+    })
   };
 
   // Put the gifs each into a div
   //Click event for each images takes you to the second page
 
   // snapshot to database
-  database.ref().on( "value", function ( snapshot ) {
+  database.ref().on("value", function (snapshot) {
 
 
 
     // If any errors are experienced, log them to console.
-  }, function ( errorObject ) {
-    console.log( "The read failed: " + errorObject.code );
-  } );
+  }, function (errorObject) {
+    console.log("The read failed: " + errorObject.code);
+  });
 
 
 
@@ -93,4 +102,4 @@ $( document ).ready( function () {
   }
 
 
-} );
+});

@@ -15,30 +15,40 @@ body {
     border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
     border: solid 2px black;
     height: 350px;
+    background-image: url("https://media.giphy.com/media/13ztMEh3iEJ5vQwBmQ/giphy.gif");
+    background-size: cover;
 }
 
 #skiing {
     border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
     border: solid 2px black;
     height: 400px;
+    background-image: url("https://media.giphy.com/media/12om7ZsmoNJR04/giphy.gif");
+    background-size: cover;
 }
 
 #mountainBike {
     border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
     border: solid 2px black;
     height: 500px;
+    background-image: url("https://media.giphy.com/media/1fiH76yldy1J9S25SZ/giphy.gif");
+    background-size: cover;
 }
 
 #surfing {
     border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
     border: solid 2px black;
     height: 400px;
+    background-image: url("https://media.giphy.com/media/Qf0AfdWeb02gE/giphy.gif");
+    background-size: cover;
 }
 
 #skydiving {
     border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
     border: solid 2px black;
     height: 450px;
+    background-image: url("https://media.giphy.com/media/3DoSrh30qnmyBItTvi/giphy.gif");
+    background-size: cover;
 }
 
 #empty {

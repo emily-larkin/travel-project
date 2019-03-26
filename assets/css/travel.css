@@ -2,18 +2,84 @@ body {
     background-color: #FEFAEC;
 }
 .searchBar {
-    background-color: #625772;
-    margin-top: 23%;
-    margin-left: 21%;
+    background-color: #A9EEE6;
+    /* margin-top: 23%; */
+    /* margin-left: 95%; */
+    width: 384px;
+    position: absolute;
+    top: 376px;
+    right: 475px;
 }
 ::placeholder{
-    color: white;
+    color: black;
 }
-.col-4 {
+
+#hiking {
+    border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
+    border: solid 2px black;
+    height: 249px;
+    background-image: url("https://media.giphy.com/media/13ztMEh3iEJ5vQwBmQ/giphy.gif");
+    background-size: cover;
+    width: 447px;
+    position: absolute;
+    right: 873px;
+}
+
+#skiing {
+    border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
+    border: solid 2px black;
+    height: 400px;
+    background-image: url("https://media.giphy.com/media/12om7ZsmoNJR04/giphy.gif");
+    background-size: cover;
+    width: 400px;
+    position: absolute;
+    right: 455px;
+    top: 10px;
+    z-index: -160;
+}
+
+#mountainBike {
+    border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
+    border: solid 2px black;
+    height: 248px;
+    background-image: url("https://media.giphy.com/media/1fiH76yldy1J9S25SZ/giphy.gif");
+    background-size: cover;
+    width: 416px;
+    position: absolute;
+    right: 151px;
+}
+
+#surfing {
+    border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
+    border: solid 2px black;
+    height: 400px;
+    background-image: url("https://media.giphy.com/media/Qf0AfdWeb02gE/giphy.gif");
+    background-size: cover;
+    width: 400px;
+    position: absolute;
+    top: 438px;
+    right: 245px;
+}
+
+#skydiving {
+    border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
+    border: solid 2px black;
+    height: 300px;
+    background-image: url("https://media.giphy.com/media/3DoSrh30qnmyBItTvi/giphy.gif");
+    background-size: cover;
+    width: 450px;
+    position: absolute;
+    top: 401px;
+    left: 141px;
+    z-index: 100;
+}
+
+#empty {
+    height: 80px;
+}
+
+/* .col-4 {
     height: 200px;
     border: solid 2px black;
-}
-Collapse
-
-
+} */
 

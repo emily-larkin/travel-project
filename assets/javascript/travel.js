@@ -37,14 +37,8 @@ $( document ).ready( function () {
       method: "GET"
     } )
       .then( function ( response ) {
-        var results = response.data;
-        $( "#????" ).empty();
-        for ( var i = 0; i < results.length; i++ ) {
-          // append location
-          // example: $("#giphy").prepend("<p>Rating of Giph: " + results[i].rating + "</p>");
-          // append distance
-
-        }
+        sessionStorage.setItem("activityJSON",JSON.stringify(response));
+        window.location.href = "./outputPage.html"
       } );
   } );
 
@@ -93,4 +87,3 @@ $( document ).ready( function () {
 
 
 } );
-

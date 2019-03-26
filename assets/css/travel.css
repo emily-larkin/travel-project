@@ -4,8 +4,11 @@ body {
 .searchBar {
     background-color: #A9EEE6;
     /* margin-top: 23%; */
-    margin-left: 95%;
+    /* margin-left: 95%; */
     width: 384px;
+    position: absolute;
+    top: 376px;
+    right: 475px;
 }
 ::placeholder{
     color: black;
@@ -15,38 +18,58 @@ body {
     border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
     border: solid 2px black;
     height: 350px;
+    width: 366px;
+    position: absolute;
+    right: 873px;
 }
 
 #skiing {
     border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
     border: solid 2px black;
-    height: 400px;
+    height: 343px;
+    width: 392px;
+    position: absolute;
+    right: 455px;
+    top: 10px;
+    z-index: -160;
 }
 
 #mountainBike {
     border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
     border: solid 2px black;
-    height: 500px;
+    height: 351px;
+    width: 346px;
+    position: absolute;
+    right: 151px;
 }
 
 #surfing {
     border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
     border: solid 2px black;
     height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 438px;
+    right: 245px;
 }
 
 #skydiving {
     border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
     border: solid 2px black;
-    height: 450px;
+    height: 300px;
+    width: 317px;
+    position: absolute;
+    top: 401px;
+    left: 141px;
+    z-index: 100;
 }
 
 #empty {
     height: 80px;
 }
 
-.col-4 {
+/* .col-4 {
     height: 200px;
     border: solid 2px black;
-}
+} */
 

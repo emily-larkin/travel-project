@@ -1,9 +1,11 @@
 $(document).ready(function () {
   // GLOBAL VARIABLES
 
+  // showInfo();
+
   // Initial Values
   // Initial list of acitvity choices in an array
-  var activities = ["Hiking", "Skiing", "Mountain Biking", "Surfing", "Skydiving"]
+  // var activities = ["Hiking", "Skiing", "Mountain Biking", "Surfing", "Skydiving"]
 
   // Initialize Firebase
   var config = {
@@ -35,7 +37,6 @@ $(document).ready(function () {
       })
       .then(function (response) {
         var results = response.data;
-        Untitled
         $(".list-item").empty();
         for (var i = 0; i < results.length; i++) {
           // append location
@@ -43,10 +44,13 @@ $(document).ready(function () {
           $(".list-item").append("<h2>Location of Activity:" + +"</h2>")
           // append distance
           $(".list-item").append("<p>Distance of Activity: " + +"</p>")
+          sessionStorage.setItem("activityJSON",JSON.stringify(response));
+          window.location.href = "./outputPage.html"
         }
       });
   });
 
+  // API for giphy just in case
 
   // Function to get giphy api's using user input(?)
   function showInfo() {
@@ -54,21 +58,24 @@ $(document).ready(function () {
     console.log(activity);
     var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + activity + "&rating=g&api_key=CzAlbxJgZNeqUfc3v0PSdcxACwxhr5Zh&limit=1";
 
-    // Use ajax to get gifs
+  //   console.log( activity );
+  //   var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + activity + "&rating=g&api_key=CzAlbxJgZNeqUfc3v0PSdcxACwxhr5Zh&limit=1";
 
-    $.ajax({
-      url: queryURL,
-      method: "GET"
+  // Use ajax to get gifs
 
-    }).then(function (response) {
-      console.log(response);
-      for (var i = 0; i < response.data.length; i++) {
+  //   $.ajax( {
+  //     url: queryURL,
+  //     method: "GET"
+  //   } ).then( function ( response ) {
 
-        var image = $("<img src= " + response.data[i].images.fixed_width.url + ">")
-          ("#display").append(image);
-      }
-    })
-  };
+  //     console.log( response );
+  //     for ( var i = 0; i < response.data.length; i++ ) {
+
+  //       var image = $( "<img src= " + response.data[i].images.original.url + ">" )
+  //       $( "#hiking" ).append( image );
+  //     }
+  //   } )
+  // };
 
   // Put the gifs each into a div
   //Click event for each images takes you to the second page

@@ -16,7 +16,7 @@ html {
 
 #activity-list {
 
-    background: #339955;
+    background: #625772;
 
     margin: 30px;
 
@@ -77,6 +77,18 @@ html {
 #scroll-list {
 
     overflow-y: scroll;
+
+    position: absolute;
+
+    top: 10px;
+
+    left: 0;
+
+    bottom: 10px;
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
 
     position: absolute;
 

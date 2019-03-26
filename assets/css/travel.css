@@ -21,7 +21,6 @@ body {
     width: 366px;
     position: absolute;
     right: 873px;
-    background-color: orangered;
 }
 
 #skiing {
@@ -33,7 +32,6 @@ body {
     right: 455px;
     top: 10px;
     z-index: -160;
-    background-color: green;
 }
 
 #mountainBike {
@@ -43,8 +41,6 @@ body {
     width: 346px;
     position: absolute;
     right: 151px;
-    background-color: blue;
-
 }
 
 #surfing {
@@ -55,7 +51,6 @@ body {
     position: absolute;
     top: 438px;
     right: 245px;
-    background-color: purple;
 }
 
 #skydiving {
@@ -67,7 +62,6 @@ body {
     top: 401px;
     left: 141px;
     z-index: 100;
-    background-color: red;
 }
 
 #empty {

@@ -22,6 +22,11 @@ $( document ).ready( function () {
 
   // FUNCTIONS
 
+  // Dropdown trigger
+  // $('.dropdown-trigger').dropdown().open();
+
+
+
   // on click function to call the api, should use data- to input which activity is being clicked or searched
   $( "????" ).on( "click", function () {
     // assigns the data attribute

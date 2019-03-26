@@ -47,6 +47,8 @@ body, html{
     margin: 10px;
 
     height: 100px;
+
+    width: 100%;
 }
 
 .top-buffer{

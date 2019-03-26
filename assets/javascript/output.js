@@ -4,7 +4,9 @@
 
 var activity =JSON.parse(sessionStorage.getItem("activityJSON"));
 
-for ( var i = 0; i < activity.length; i++ ) {
+console.log(activity);
+
+for ( var i = 0; i < 2; i++ ) {
     // append location
     // example: $("#giphy").prepend("<p>Rating of Giph: " + results[i].rating + "</p>");
     var newItem = $("<div class = 'list-item'>")

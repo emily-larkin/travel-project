@@ -84,18 +84,4 @@ body, html{
     left: 0;
 
     bottom: 10px;
-
-::-webkit-scrollbar {
-    width: 0px;  /* remove scrollbar space */
-    background: transparent;  /* optional: just make scrollbar invisible */
-
-    position: absolute;
-
-    top: 10px;
-
-    left: 0;
-
-    bottom: 10px;
-
-    right: -17px;
 }

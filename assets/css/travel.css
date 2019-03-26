@@ -17,6 +17,7 @@ body {
 #hiking {
     border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
     border: solid 2px black;
+    margin: 50px;
     height: 249px;
     background-image: url("https://media.giphy.com/media/13ztMEh3iEJ5vQwBmQ/giphy.gif");
     background-size: cover;
@@ -29,6 +30,7 @@ body {
     border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
     border: solid 2px black;
     height: 400px;
+    margin: 50px;
     background-image: url("https://media.giphy.com/media/12om7ZsmoNJR04/giphy.gif");
     background-size: cover;
     width: 400px;

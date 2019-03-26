@@ -2,18 +2,18 @@
 
 //Then when the query loads, make a for statement that creates the divs and put the activity data within them.
 
-var activity =JSON.parse(sessionStorage.getItem("activityJSON"));
+var activity = JSON.parse(sessionStorage.getItem("activityJSON"));
 
-for ( var i = 0; i < activity.length; i++ ) {
-    // append location
-    // example: $("#giphy").prepend("<p>Rating of Giph: " + results[i].rating + "</p>");
-    var newItem = $("<div class = 'list-item'>")
+for (var i = 0; i < 15; i++) {
+  // append location
+  // example: $("#giphy").prepend("<p>Rating of Giph: " + results[i].rating + "</p>");
+  var newItem = $("<div class = 'list-item'>")
 
-    newItem.append("<h2>Location of Activity:" + + "</h2>")
+  newItem.append("<h2>Location of Activity:" + + "</h2>")
 
-    // append distance
+  // append distance
 
-    newItem.append("<p>Distance of Activity: " + + "</p>")
+  newItem.append("<p>Distance of Activity: " + + "</p>")
 
-    $("#scroll-list").append(newItem)
-  }
+  $("#scroll-list").append(newItem)
+}

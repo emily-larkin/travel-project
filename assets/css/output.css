@@ -1,4 +1,3 @@
-body,
 html {
     margin: 0px;
 }
@@ -27,6 +26,8 @@ html {
     height: calc(100vh - 60px);
 
     overflow: hidden;
+
+    padding: 10px;
 
 }
 
@@ -78,18 +79,7 @@ html {
 
     overflow-y: scroll;
 
-    position: absolute;
-
-    top: 10px;
-
-    left: 0;
-
-    bottom: 10px;
-}
-
-::-webkit-scrollbar {
-    width: 0px;  /* remove scrollbar space */
-    background: transparent;  /* optional: just make scrollbar invisible */
+    overflow-x: hidden;
 
     position: absolute;
 
@@ -99,5 +89,5 @@ html {
 
     bottom: 10px;
 
-    right: -17px;
+    right: 0px;
 }

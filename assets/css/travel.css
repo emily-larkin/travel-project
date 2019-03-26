@@ -9,6 +9,7 @@ body {
     position: absolute;
     top: 376px;
     right: 475px;
+    margin: 135px 50px 50px 50px;
 }
 ::placeholder{
     color: black;
@@ -17,7 +18,7 @@ body {
 #hiking {
     border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
     border: solid 2px black;
-    margin: 50px;
+    margin: 106px 98px 49px 50px;
     height: 249px;
     background-image: url("https://media.giphy.com/media/13ztMEh3iEJ5vQwBmQ/giphy.gif");
     background-size: cover;
@@ -30,7 +31,7 @@ body {
     border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
     border: solid 2px black;
     height: 400px;
-    margin: 50px;
+    margin: 50px 50px 50px 50px;
     background-image: url("https://media.giphy.com/media/12om7ZsmoNJR04/giphy.gif");
     background-size: cover;
     width: 400px;
@@ -43,6 +44,7 @@ body {
 #mountainBike {
     border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
     border: solid 2px black;
+    margin: 152px -124px 50px 175px;
     height: 248px;
     background-image: url("https://media.giphy.com/media/1fiH76yldy1J9S25SZ/giphy.gif");
     background-size: cover;
@@ -54,10 +56,11 @@ body {
 #surfing {
     border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
     border: solid 2px black;
-    height: 400px;
-    background-image: url("https://media.giphy.com/media/Qf0AfdWeb02gE/giphy.gif");
+    margin: 146px -77px 33px 34px;
+    height: 317px;
+    background-image: url("https://media.giphy.com/media/Sp7ip1Nww0s3m/giphy.gif");
     background-size: cover;
-    width: 400px;
+    width: 438px;
     position: absolute;
     top: 438px;
     right: 245px;
@@ -66,6 +69,7 @@ body {
 #skydiving {
     border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
     border: solid 2px black;
+    margin: 150px 33px 50px -79px;
     height: 300px;
     background-image: url("https://media.giphy.com/media/3DoSrh30qnmyBItTvi/giphy.gif");
     background-size: cover;

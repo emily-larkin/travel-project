@@ -53,13 +53,13 @@ $(document).ready(function () {
   // API for giphy just in case
 
   // Function to get giphy api's using user input(?)
-  function showInfo() {
-    var activity = $(this).attr("data-name");
-    console.log(activity);
-    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + activity + "&rating=g&api_key=CzAlbxJgZNeqUfc3v0PSdcxACwxhr5Zh&limit=1";
-
-  //   console.log( activity );
+  // function showInfo() {
+  //   var activity = $(this).attr("data-name");
+  //   console.log(activity);
   //   var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + activity + "&rating=g&api_key=CzAlbxJgZNeqUfc3v0PSdcxACwxhr5Zh&limit=1";
+
+  // //   console.log( activity );
+  // //   var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + activity + "&rating=g&api_key=CzAlbxJgZNeqUfc3v0PSdcxACwxhr5Zh&limit=1";
 
   // Use ajax to get gifs
 

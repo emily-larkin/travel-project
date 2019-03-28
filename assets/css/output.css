@@ -15,7 +15,7 @@ html {
 
 #activity-list {
 
-    background: #625772;
+    background: #074955;
 
     margin: 30px;
 
@@ -82,35 +82,36 @@ html {
     overflow-x: hidden;
 
     position: absolute;
-<<<<<<< HEAD
-
-    top: 10px;
-
-    left: 0;
-
-    bottom: 10px;
-=======
->>>>>>> 42cba49d4bc24375e50e6b1f99f6373f4f51477f
 
     right: 0px;
 }
 
 .navbar {
-    background-color: #625772;
+    background-color: #053F48;
     height: 90px;
+    color: white;
+    text-align: right;
 }
 
 .page-footer {
-    background-color: #625772;
+    background-color: #053F48;
     padding-top: 1%;
     font-size: 14px;
+    color: white;
 }
 
-<<<<<<< HEAD
-h6 {
-    line-height: 12px;
+.nav-link {
+    text-align: right;
 }
-=======
-    right: -17px;
+
+.navbar-light .navbar-nav .nav-link {
+    color: #f8f9fa;
 }
->>>>>>> 42cba49d4bc24375e50e6b1f99f6373f4f51477f
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #f8f9fa;
+}
+
+.navbar-light .navbar-brand {
+    color: #f8f9fa;
+}

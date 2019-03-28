@@ -38,35 +38,8 @@ $(document).ready(function () {
 
   // on click function to call the api, should use data- to input which activity is being clicked or searched
   $(".dropdown-content").on("click", function () {
-    // assigns the data attribute
-    var activitiesCall = $(this).attr("data-pick");
-    // &limit=10 limits the response by 10
-    activityQueryURL = 'http://api.amp.active.com/v2/search&q=' + activitiesCall + 'near=Salt%20Lake%20City,UT,US&show_distance=true&sort=distance&start_date=' + getTodaysDate() + '&api_key=9deez853x9tvu4b2ycpsjs7m';
-
-    function getTodaysDate() {
-      var today = new Date();
-      var dd = String(today.getDate()).padStart(2, '0');
-      var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-      var yyyy = today.getFullYear();
-  
-      today = mm + '-' + dd + '-' + yyyy;
-      return today
-  }
-
-    // link the api using ajax
-    $.ajax({
-        url: activityQueryURL,
-        method: "GET"
-      })
-      .then(function (response) {
-        var results = response.data;
-        for (var i = 0; i < results.length; i++) {
-          // append location
-          // example: $("#giphy").prepend("<p>Rating of Giph: " + results[i].rating + "</p>");
-          sessionStorage.setItem("activityJSON", JSON.stringify(response));
-          window.location.href = "./outputPage.html"
-        }
-      });
+    sessionStorage.setItem("activityName", );
+    document.getElementById("dropdown1").innerHTML = sessionStorage.getItem("activityName");
   });
 
   // API for giphy just in case

@@ -41,9 +41,6 @@ $(document).ready(function () {
         for (var i = 0; i < results.length; i++) {
           // append location
           // example: $("#giphy").prepend("<p>Rating of Giph: " + results[i].rating + "</p>");
-          $(".list-item").append("<h2>Location of Activity:" + +"</h2>")
-          // append distance
-          $(".list-item").append("<p>Distance of Activity: " + +"</p>")
           sessionStorage.setItem("activityJSON",JSON.stringify(response));
           window.location.href = "./outputPage.html"
         }

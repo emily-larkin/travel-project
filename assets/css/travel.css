@@ -1,6 +1,6 @@
 body {
- background-image: url("../placeholder-images/mountains.jpg");
- background-size: cover;
+    background-image: url("../placeholder-images/mountains.jpg");
+    background-size: cover;
 }
 
 .searchBar {
@@ -29,7 +29,7 @@ body {
     width: 447px;
     position: absolute;
     right: 873px;
-   
+
 }
 
 #skiing {
@@ -89,7 +89,9 @@ body {
     height: 80px;
 }
 
-.btn, .btn-large, .btn-small {
+.btn,
+.btn-large,
+.btn-small {
     text-decoration: none;
     color: #fff;
     background-color: #26a69a;

@@ -82,6 +82,15 @@ html {
     overflow-x: hidden;
 
     position: absolute;
+<<<<<<< HEAD
+=======
+
+    top: 10px;
+
+    left: 0;
+
+    bottom: 10px;
+>>>>>>> 3e98e1ddd07e84238b197c05bede47e41577dddb
 
     right: 0px;
 }
@@ -108,6 +117,7 @@ html {
     color: #f8f9fa;
 }
 
+<<<<<<< HEAD
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: #f8f9fa;
 }
@@ -115,3 +125,8 @@ html {
 .navbar-light .navbar-brand {
     color: #f8f9fa;
 }
+=======
+h6 {
+    line-height: 12px;
+}
+>>>>>>> 3e98e1ddd07e84238b197c05bede47e41577dddb

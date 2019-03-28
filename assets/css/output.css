@@ -91,3 +91,18 @@ html {
 
     right: 0px;
 }
+
+.navbar {
+    background-color: #625772;
+    height: 90px;
+}
+
+.page-footer {
+    background-color: #625772;
+    padding-top: 1%;
+    font-size: 14px;
+}
+
+h6 {
+    line-height: 12px;
+}

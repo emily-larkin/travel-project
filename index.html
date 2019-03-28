@@ -29,48 +29,69 @@
     <script src="https://apis.google.com/js/platform.js" async defer></script>
 
 </head>
+<nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">The Adventure Setter</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="outputPage.html">Activities</a>
+            </li>
+    </div>
+</nav>
 
 <body>
-    <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark">Sign On</div>
+    <div class="activities-holder">
+        <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark">Sign On</div>
 
-    <!-- Home Page -->
+        <!-- Home Page -->
 
-    <!-- Empty Row -->
-    <div class="containter">
+        <!-- Empty Row -->
+        <!-- <div class="containter">
         <div class="row" id="empty"></div>
-    </div>
+    </div> -->
 
-    <!-- First Row -->
-    <div class="container">
-        <div class="row">
-            <div id="hiking"></div>
-            <div id="skiing"></div>
-            <div id="mountainBike"></div>
+        <!-- First Row -->
+        <div class="container">
+            <div class="row">
+                <div id="hiking"></div>
+                <div id="skiing"></div>
+                <div id="mountainBike"></div>
+            </div>
+        </div>
+
+
+        <!-- Second Row -->
+        <div class="container">
+            <div class="row">
+                <!-- Search Bar -->
+                <div><input type="text" class="searchBar" placeholder="Search.."></div>
+            </div>
+        </div>
+
+        <!-- Third Row -->
+        <div class="container">
+            <div class="row">
+                <div id="surfing"></div>
+                <div></div>
+                <div id="skydiving"></div>
+            </div>
+        </div>
+
+        <!-- Empty Row -->
+        <div class="containter">
+            <div class="row" id="empty"></div>
         </div>
     </div>
 
 
-    <!-- Second Row -->
-    <div class="container">
-        <div class="row">
-            <!-- Search Bar -->
-            <div><input type="text" class="searchBar" placeholder="Search.."></div>
-        </div>
-    </div>
-
-    <!-- Third Row -->
-    <div class="container">
-        <div class="row">
-            <div id="surfing"></div>
-            <div></div>
-            <div id="skydiving"></div>
-        </div>
-    </div>
-
-    <!-- Empty Row -->
-    <div class="containter">
-        <div class="row" id="empty"></div>
-    </div>
 
 
 

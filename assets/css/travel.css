@@ -90,3 +90,12 @@ body {
     height: 200px;
     border: solid 2px black;
 } */
+
+.navbar {
+    background-color: #625772;
+    height: 53px;
+}
+
+.activities-holder {
+    display: block;
+}

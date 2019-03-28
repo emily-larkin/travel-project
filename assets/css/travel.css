@@ -1,6 +1,8 @@
 body {
-    background-color: #FEFAEC;
+ background-image: url("../placeholder-images/mountains.jpg");
+ background-size: cover;
 }
+
 .searchBar {
     background-color: #A9EEE6;
     /* margin-top: 23%; */
@@ -9,25 +11,35 @@ body {
     position: absolute;
     top: 376px;
     right: 475px;
+    margin: 45px 50px 50px 50px;
+    box-shadow: 4px;
 }
-::placeholder{
+
+::placeholder {
     color: black;
 }
 
 #hiking {
     border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
     border: solid 2px black;
-    height: 350px;
-    width: 366px;
+    margin: 106px 98px 49px 50px;
+    height: 249px;
+    background-image: url("https://media.giphy.com/media/13ztMEh3iEJ5vQwBmQ/giphy.gif");
+    background-size: cover;
+    width: 447px;
     position: absolute;
     right: 873px;
+   
 }
 
 #skiing {
     border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
     border: solid 2px black;
-    height: 343px;
-    width: 392px;
+    height: 248px;
+    margin: 25px 50px 50px 50px;
+    background-image: url("https://media.giphy.com/media/3DoSrh30qnmyBItTvi/giphy.gif");
+    background-size: cover;
+    width: 400px;
     position: absolute;
     right: 455px;
     top: 10px;
@@ -37,8 +49,11 @@ body {
 #mountainBike {
     border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
     border: solid 2px black;
-    height: 351px;
-    width: 346px;
+    margin: 152px -124px 50px 175px;
+    height: 248px;
+    background-image: url("https://media.giphy.com/media/1fiH76yldy1J9S25SZ/giphy.gif");
+    background-size: cover;
+    width: 416px;
     position: absolute;
     right: 151px;
 }
@@ -46,8 +61,11 @@ body {
 #surfing {
     border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
     border: solid 2px black;
-    height: 400px;
-    width: 400px;
+    margin: 146px -226px 33px 34px;
+    height: 317px;
+    background-image: url("https://media.giphy.com/media/Sp7ip1Nww0s3m/giphy.gif");
+    background-size: cover;
+    width: 438px;
     position: absolute;
     top: 438px;
     right: 245px;
@@ -56,8 +74,11 @@ body {
 #skydiving {
     border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
     border: solid 2px black;
+    margin: 150px 33px 50px -79px;
     height: 300px;
-    width: 317px;
+    background-image: url("https://media.giphy.com/media/dDZZ5yzhJDJBu/giphy.gif");
+    background-size: cover;
+    width: 450px;
     position: absolute;
     top: 401px;
     left: 141px;
@@ -86,4 +107,3 @@ body {
     height: 200px;
     border: solid 2px black;
 } */
-

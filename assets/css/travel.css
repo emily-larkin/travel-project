@@ -111,10 +111,26 @@ body {
 } */
 
 .navbar {
-    background-color: #625772;
-    height: 53px;
+    background-color: #053F48;
+    height: 55px;
 }
 
 .activities-holder {
     display: block;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #f8f9fa;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #f8f9fa;
+}
+
+.navbar-light .navbar-brand {
+    color: #f8f9fa;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: white !important;
 }

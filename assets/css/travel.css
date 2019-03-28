@@ -117,6 +117,7 @@ body {
 
 .activities-holder {
     display: block;
+    height: 100vh;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -134,3 +135,13 @@ body {
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
     color: white !important;
 }
+
+.page-footer {
+    background-color: #053F48;
+    padding-top: 1%;
+    font-size: 12px;
+    color: white;
+}
+
+
+

@@ -112,7 +112,7 @@ body {
 
 .navbar {
     background-color: #053F48;
-    height: 90px;
+    height: 55px;
 }
 
 .activities-holder {
@@ -129,4 +129,8 @@ body {
 
 .navbar-light .navbar-brand {
     color: #f8f9fa;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: white !important;
 }

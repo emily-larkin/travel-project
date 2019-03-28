@@ -37,11 +37,9 @@ $(document).ready(function () {
   $('.dropdown-trigger').dropdown();
 
   // on click function to call the api, should use data- to input which activity is being clicked or searched
-  $(".dropdown-content").on("click", function () {
-    var activityName = s;
-    console.log(activityName);
-    sessionStorage.setItem("activityName", );
-    document.getElementById("dropdown1").innerHTML = sessionStorage.getItem("activityName");
+  $(".dropdown-content").on("click", function (e) {
+    sessionStorage.setItem("activityName", e.target.innerHTML);
+    $("#dropdown1").innerHTML = sessionStorage.getItem(e.target.innerHTML);
   });
 
   // API for giphy just in case

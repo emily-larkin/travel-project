@@ -1,123 +1,123 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-    <head>
-        <meta charset="UTF-8">
+<head>
+    <meta charset="UTF-8">
 
-        <title>
+    <title>
 
-        </title>
-        <!-- firebase link  -->
-        <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+    </title>
+    <!-- firebase link  -->
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
 
-        <!-- reset css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- reset css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 
-        <!-- Bootstrap -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
-        <!-- Materialize -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Materialize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
 
-        <!-- css -->
-        <link rel="stylesheet" type="text/css" href="./assets/css/travel.css">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/travel.css">
 
-        <!-- Firebase Reference -->
-        <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
+    <!-- Firebase Reference -->
+    <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
 
-        <!-- google sign on stuff  -->
-        <meta name="google-signin-scope" content="profile email">
-        <meta name="google-signin-client_id"
-            content="549559435677-qc9rorm5dt7j8dj7j59su1711ql5uleq.apps.googleusercontent.com">
-        <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <!-- google sign on stuff  -->
+    <meta name="google-signin-scope" content="profile email">
+    <meta name="google-signin-client_id"
+        content="549559435677-qc9rorm5dt7j8dj7j59su1711ql5uleq.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
 
-    </head>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">The Adventure Setter</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+</head>
+<nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">The Adventure Setter</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="outputPage.html">Activities</a>
-                </li>
-                <li class="g-signin2" data-onsuccess="onSignIn">
-                    <a href="#" onclick="signOut();">Sign out</a>
-                </li>
-        </div>
-    </nav>
-    <!-- Home Page -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="outputPage.html">Activities</a>
+            </li>
+            <li class="g-signin2" data-onsuccess="onSignIn">
+                <a href="#" onclick="signOut();">Sign out</a>
+            </li>
+    </div>
+</nav>
+<!-- Home Page -->
 
-    <body>
-        <div class="activities-holder">
+<body>
+    <div class="activities-holder">
 
-            <!-- Empty Row -->
-            <!-- <div class="containter">
+        <!-- Empty Row -->
+        <!-- <div class="containter">
         <div class="row" id="empty"></div>
     </div> -->
 
-            <!-- First Row -->
-            <div class="container">
-                <div class="row">
-                    <div id="hiking"></div>
-                    <div id="skiing"></div>
-                    <div id="mountainBike"></div>
-                </div>
-            </div>
-
-            <center>
-                <!-- Dropdown Trigger -->
-                <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Pick Your Adventure!</a>
-
-                <!-- Dropdown Structure -->
-                <ul id='dropdown1' class='dropdown-content'>
-                    <li><a class="activity" data-pick="list" href="#!">Hiking</a></li>
-                    <li><a class="activity" data-pick="list" href="#!">Sailing</a></li>
-                    <li><a class="activity" data-pick="list" href="#!">Kayaking</a></li>
-                    <li><a class="activity" data-pick="list" href="#!">Skiing</a></li>
-                    <li><a class="activity" data-pick="list" href="#!">Skydiving</a></li>
-                    <li><a class="activity" data-pick="list" href="#!">Surfing</a></li>
-                    <li><a class="activity" data-pick="list" href="#!">Mountain Biking</a></li>
-                    <li><a class="activity" data-pick="list" href="#!">Dancing</a></li>
-                    <li><a class="activity" data-pick="list" href="#!">Climbing</a></li>
-                </ul>
-
-            </center>
-
-
-            <!-- Third Row -->
-            <div class="container">
-                <div class="row">
-                    <div id="surfing"></div>
-                    <div></div>
-                    <div id="skydiving"></div>
-                </div>
-            </div>
-
-            <!-- Empty Row -->
-            <div class="containter">
-                <div class="row" id="empty"></div>
+        <!-- First Row -->
+        <div class="container">
+            <div class="row">
+                <div id="hiking"></div>
+                <div id="skiing"></div>
+                <div id="mountainBike"></div>
             </div>
         </div>
 
+        <center>
+            <!-- Dropdown Trigger -->
+            <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Pick Your Adventure!</a>
+
+            <!-- Dropdown Structure -->
+            <ul id='dropdown1' class='dropdown-content'>
+                <li><a class="activity" data-pick="list" href="#!" value="Hiking">Hiking</a></li>
+                <li><a class="activity" data-pick="list" href="#!" value="Sailing">Sailing</a></li>
+                <li><a class="activity" data-pick="list" href="#!" value="Kayaking">Kayaking</a></li>
+                <li><a class="activity" data-pick="list" href="#!" value="Skiing">Skiing</a></li>
+                <li><a class="activity" data-pick="list" href="#!" value="Skydiving">Skydiving</a></li>
+                <li><a class="activity" data-pick="list" href="#!" value="Surfing">Surfing</a></li>
+                <li><a class="activity" data-pick="list" href="#!" value="Mountain Biking">Mountain Biking</a></li>
+                <li><a class="activity" data-pick="list" href="#!" value="Dancing">Dancing</a></li>
+                <li><a class="activity" data-pick="list" href="#!" value="Climbing">Climbing</a></li>
+            </ul>
+
+        </center>
 
 
-    </body>
+        <!-- Third Row -->
+        <div class="container">
+            <div class="row">
+                <div id="surfing"></div>
+                <div></div>
+                <div id="skydiving"></div>
+            </div>
+        </div>
+
+        <!-- Empty Row -->
+        <div class="containter">
+            <div class="row" id="empty"></div>
+        </div>
+    </div>
 
 
-    <!-- jquery  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-    <!-- JavaScript -->
-    <script src="./assets/javascript/travel.js"></script>
+</body>
+
+
+<!-- jquery  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<!-- JavaScript -->
+<script src="./assets/javascript/travel.js"></script>
 
 </html>

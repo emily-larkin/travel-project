@@ -1,5 +1,5 @@
 body {
- background-image: url("../placeholder-images/abstract-art-background-1939485.jpg");
+ background-image: url("../placeholder-images/mountains.jpg");
  background-size: cover;
 }
 
@@ -11,7 +11,7 @@ body {
     position: absolute;
     top: 376px;
     right: 475px;
-    margin: 81px 50px 50px 50px;
+    margin: 45px 50px 50px 50px;
     box-shadow: 4px;
 }
 
@@ -37,7 +37,7 @@ body {
     border: solid 2px black;
     height: 248px;
     margin: 25px 50px 50px 50px;
-    background-image: url("https://media.giphy.com/media/12om7ZsmoNJR04/giphy.gif");
+    background-image: url("https://media.giphy.com/media/3DoSrh30qnmyBItTvi/giphy.gif");
     background-size: cover;
     width: 400px;
     position: absolute;
@@ -76,7 +76,7 @@ body {
     border: solid 2px black;
     margin: 150px 33px 50px -79px;
     height: 300px;
-    background-image: url("https://media.giphy.com/media/3DoSrh30qnmyBItTvi/giphy.gif");
+    background-image: url("https://media.giphy.com/media/dDZZ5yzhJDJBu/giphy.gif");
     background-size: cover;
     width: 450px;
     position: absolute;

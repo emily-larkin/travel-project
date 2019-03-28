@@ -26,22 +26,22 @@ $(document).ready(function () {
   // Dropdown trigger
   // (function($) {
   //   $(function() {
- 
+
   //     $('.button-collapse').sideNav();
   //     $('select').material_select();
   //     $('.dropdown-button').dropdown();
- 
+
   //   }); // end of document ready
   // })(jQuery); // end of jQuery name space
- 
+
   $('.dropdown-trigger').dropdown();
-  
+
   // on click function to call the api, should use data- to input which activity is being clicked or searched
   $(".dropdown-content").on("click", function () {
     // assigns the data attribute
     var activitiesCall = $(this).attr("data-active");
     // &limit=10 limits the response by 10
-    activityQueryURL = 'http://api.amp.active.com/v2/search&q=' + activitiesCall + 'near=Salt%20Lake%20City,UT,US&show_distance=true&sort=distance&api_key=9deez853x9tvu4b2ycpsjs7m&limit=10';
+    activityQueryURL = 'http://api.amp.active.com/v2/search&q=' + activitiesCall + 'near=Salt%20Lake%20City,UT,US&show_distance=true&sort=distance&api_key=9deez853x9tvu4b2ycpsjs7m';
 
     // link the api using ajax
     $.ajax({
@@ -53,7 +53,7 @@ $(document).ready(function () {
         for (var i = 0; i < results.length; i++) {
           // append location
           // example: $("#giphy").prepend("<p>Rating of Giph: " + results[i].rating + "</p>");
-          sessionStorage.setItem("activityJSON",JSON.stringify(response));
+          sessionStorage.setItem("activityJSON", JSON.stringify(response));
           window.location.href = "./outputPage.html"
         }
       });

@@ -36,7 +36,6 @@ $(document).ready(function () {
 
   $('.dropdown-trigger').dropdown();
 
-  var activities = [Hiking, Sailing, Kayaking, Skiing, Skydiving, Surfing, MountainBiking, Dancing, Climbing]
   // on click function to call the api, should use data- to input which activity is being clicked or searched
   $(".dropdown-content").on("click", function () {
     var activityName = s;

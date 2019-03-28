@@ -41,9 +41,6 @@ $(document).ready(function () {
         for (var i = 0; i < results.length; i++) {
           // append location
           // example: $("#giphy").prepend("<p>Rating of Giph: " + results[i].rating + "</p>");
-          $(".list-item").append("<h2>Location of Activity:" + +"</h2>")
-          // append distance
-          $(".list-item").append("<p>Distance of Activity: " + +"</p>")
           sessionStorage.setItem("activityJSON",JSON.stringify(response));
           window.location.href = "./outputPage.html"
         }
@@ -106,6 +103,13 @@ $(document).ready(function () {
     // The ID token you need to pass to your backend:
     var id_token = googleUser.getAuthResponse().id_token;
     console.log("ID Token: " + id_token);
+  }
+
+  function signOut() {
+    var auth2 = gapi.auth2.getAuthInstance();
+    auth2.signOut().then(function () {
+      console.log('User signed out.');
+    });
   }
 
 

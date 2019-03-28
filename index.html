@@ -13,19 +13,19 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
-    <!-- Materialize -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-
     <!-- css -->
     <link rel="stylesheet" type="text/css" href="./assets/css/travel.css">
+
+    <!-- jquery  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
     <!-- Firebase Reference -->
     <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
 
     <!-- google sign on stuff  -->
     <meta name="google-signin-scope" content="profile email">
-    <meta name="google-signin-client_id" content="549559435677-qc9rorm5dt7j8dj7j59su1711ql5uleq.apps.googleusercontent.com">
+    <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
     <script src="https://apis.google.com/js/platform.js" async defer></script>
 
 </head>
@@ -44,15 +44,14 @@
             <li class="nav-item">
                 <a class="nav-link" href="outputPage.html">Activities</a>
             </li>
-            <li class="g-signin2" data-onsuccess="onSignIn">
-                <a href="#" onclick="signOut();">Sign out</a>
-            </li>
     </div>
 </nav>
-        <!-- Home Page -->
 
-    <body>
+<body>
     <div class="activities-holder">
+        <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark">Sign On</div>
+
+        <!-- Home Page -->
 
         <!-- Empty Row -->
         <!-- <div class="containter">
@@ -67,26 +66,15 @@
                 <div id="mountainBike"></div>
             </div>
         </div>
-      
-        <center>     
-            <!-- Dropdown Trigger -->
-            <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Pick Your Adventure!</a> -->
 
-            <!-- Dropdown Structure -->
-              <ul id='dropdown1' class='dropdown-content'>
-                <li><a class="activity" data-pick="list" href="#!">Hiking</a></li>
-                <li><a class="activity" data-pick="list" href="#!">Sailing</a></li>
-                <li><a class="activity" data-pick="list" href="#!">Kayaking</a></li>
-                <li><a class="activity" data-pick="list" href="#!">Skiing</a></li>
-                <li><a class="activity" data-pick="list" href="#!">Skydiving</a></li>
-                <li><a class="activity" data-pick="list" href="#!">Surfing</a></li>
-                <li><a class="activity" data-pick="list" href="#!">Mountain Biking</a></li>
-                <li><a class="activity" data-pick="list" href="#!">Dancing</a></li>
-                <li><a class="activity" data-pick="list" href="#!">Climbing</a></li>
-            </ul>
-         
-         </center>
-     
+
+        <!-- Second Row -->
+        <div class="container">
+            <div class="row">
+                <!-- Search Bar -->
+                <div><input type="text" class="searchBar" placeholder="Search.."></div>
+            </div>
+        </div>
 
         <!-- Third Row -->
         <div class="container">
@@ -105,15 +93,11 @@
 
 
 
-    </body>
 
- 
- <!-- jquery  -->
- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
- <!-- JavaScript -->
- <script src="./assets/javascript/travel.js"></script>
+</body>
+
+<!-- JavaScript -->
+<script src="./assets/javascript/travel.js"></script>
 
 </html>

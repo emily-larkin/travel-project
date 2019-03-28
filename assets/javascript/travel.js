@@ -38,6 +38,8 @@ $(document).ready(function () {
 
   // on click function to call the api, should use data- to input which activity is being clicked or searched
   $(".dropdown-content").on("click", function () {
+    var activityName = ;
+    console.log(activityName)
     sessionStorage.setItem("activityName", );
     document.getElementById("dropdown1").innerHTML = sessionStorage.getItem("activityName");
   });

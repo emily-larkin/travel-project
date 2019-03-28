@@ -1,6 +1,6 @@
 body {
- background-image: url("../placeholder-images/mountains.jpg");
- background-size: cover;
+    background-image: url("../placeholder-images/mountains.jpg");
+    background-size: cover;
 }
 
 .searchBar {
@@ -22,21 +22,21 @@ body {
 #hiking {
     border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
     border: solid 2px black;
-    margin: 106px 98px 49px 50px;
-    height: 249px;
+    margin: 162px 136px 49px 50px;
+    height: 248px;
     background-image: url("https://media.giphy.com/media/13ztMEh3iEJ5vQwBmQ/giphy.gif");
     background-size: cover;
-    width: 447px;
+    width: 400px;
     position: absolute;
     right: 873px;
-   
+
 }
 
 #skiing {
     border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
     border: solid 2px black;
     height: 248px;
-    margin: 25px 50px 50px 50px;
+    margin: 67px 50px 50px 50px;
     background-image: url("https://media.giphy.com/media/3DoSrh30qnmyBItTvi/giphy.gif");
     background-size: cover;
     width: 400px;
@@ -49,11 +49,11 @@ body {
 #mountainBike {
     border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
     border: solid 2px black;
-    margin: 152px -124px 50px 175px;
+    margin: 176px -124px 50px 175px;
     height: 248px;
     background-image: url("https://media.giphy.com/media/1fiH76yldy1J9S25SZ/giphy.gif");
     background-size: cover;
-    width: 416px;
+    width: 400px;
     position: absolute;
     right: 151px;
 }
@@ -61,11 +61,11 @@ body {
 #surfing {
     border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
     border: solid 2px black;
-    margin: 146px -226px 33px 34px;
-    height: 317px;
+    margin: 120px -226px 33px 34px;
+    height: 248px;
     background-image: url("https://media.giphy.com/media/Sp7ip1Nww0s3m/giphy.gif");
     background-size: cover;
-    width: 438px;
+    width: 400px;
     position: absolute;
     top: 438px;
     right: 245px;
@@ -74,11 +74,11 @@ body {
 #skydiving {
     border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
     border: solid 2px black;
-    margin: 150px 33px 50px -79px;
-    height: 300px;
+    margin: 157px 33px 50px -131px;
+    height: 248px;
     background-image: url("https://media.giphy.com/media/dDZZ5yzhJDJBu/giphy.gif");
     background-size: cover;
-    width: 450px;
+    width: 400px;
     position: absolute;
     top: 401px;
     left: 141px;
@@ -89,7 +89,32 @@ body {
     height: 80px;
 }
 
+.btn,
+.btn-large,
+.btn-small {
+    text-decoration: none;
+    color: #fff;
+    background-color: #26a69a;
+    text-align: center;
+    letter-spacing: .5px;
+    -webkit-transition: background-color .2s ease-out;
+    transition: background-color .2s ease-out;
+    cursor: pointer;
+    position: absolute;
+    left: 615px;
+    top: 408px;
+}
+
 /* .col-4 {
     height: 200px;
     border: solid 2px black;
 } */
+
+.navbar {
+    background-color: #625772;
+    height: 53px;
+}
+
+.activities-holder {
+    display: block;
+}

@@ -28,7 +28,7 @@ $.ajax({
 
     newItem.append("<p>Location of Activity: " + response.results[i].place.longitude + " " + response.results[i].place.latitude+ "</p>")
 
-    // append distance
+  // append distance
 
   
 

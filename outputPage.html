@@ -28,26 +28,77 @@
 
 </head>
 
-<body id = "output-body">
+<nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">The Adventure Setter</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <div id = "bg-image">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Activities</a>
+            </li>
+            <li class="g-signin2" data-onsuccess="onSignIn">
+                <a href="#" onclick="signOut();">Sign out</a>
+            </li>
+    </div>
+</nav>
 
-        <div class = "flex-container">
+<body id="output-body">
 
-            <div id = "activity-list">
-                
+    <div id="bg-image">
+
+        <div class="flex-container">
+
+            <div id="activity-list">
+
                 <!-- <div class="top-buffer"></div> -->
 
-                
-                <div id= "scroll-list">
+
+                <div id="scroll-list">
                 </div>
-                
+
                 <!-- <div class="bottom-buffer"></div> -->
             </div>
 
         </div>
 
     </div>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h3 class="white-text">Contact</h3>
+                    <h6 class="grey-text text-lighten-4">University of Utah</h6>
+                    <h6 class="grey-text text-lighten-4">Sandy Center</h6>
+                    <h6 class="grey-text text-lighten-4">10011 Centennial Pkwy #100</h6>
+                    <h6 class="grey-text text-lighten-4">Sandy, UT 84070</h6>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h3 class="white-text">Team Members</h3>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Michael Olsen</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Ashlyn Tyler</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Emily Robinson</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Kayla Tryon</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Christa Hyde</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <!-- <div class="container">
+                © 2014 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div> -->
+        </div>
+    </footer>
 
 </body>
 

@@ -118,3 +118,7 @@ body {
 .activities-holder {
     display: block;
 }
+
+.g-signin2 {
+    margin-top: 20px;
+}

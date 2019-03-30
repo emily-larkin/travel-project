@@ -121,7 +121,7 @@ h6 {
 }
 
 .g-signin2 {
-    margin-top: 20px;
+    margin-top: 2px;
     position: relative;
     top: 0px;
     left: 950px;
@@ -147,4 +147,17 @@ padding: 15px 8px 8px 8px;
 
 .abcRioButtonLightBlue {
     background-color: #f8f9fa;
+}
+
+#connectedy48amt7pqpqa {
+    position: relative;
+    top: -6px;
+    left: -2px;
+    color: #053F48;
+}
+
+.abcRioButtonContents {
+    position: relative;
+    top: -8px;	   
+    left: -5px;
 }

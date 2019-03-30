@@ -37,17 +37,19 @@ $.ajax({
 
       if(response.results[i].assetImages.length > 0)
 
-        newItem.append("<img class = 'thumbnail' src =" + response.results[i].assetImages[0].imageUrlAdr + " width ='70px' height = '70px' alt = 'img'>")
+        newItem.append("<img class = 'thumbnail' src ='" + response.results[i].assetImages[0].imageUrlAdr + "' width ='70px' height = '70px' alt = 'img'>")
       
       else
 
         newItem.append("<img class = 'thumbnail' src = './assets/placeholder-images/placeholder.png' width ='70px' height = '70px' alt = 'img'>")
 
-      holderDiv.append("<p>" + response.results[i].assetName + "</p>")
+      var shortName = response.results[i].assetName.split(" - ")
+
+      holderDiv.append("<p>" + shortName[0] + "</p>")
 
       if(response.results[i].homePageUrlAdr !== "")
 
-        holderDiv.append("<a href=" + response.results[i].homePageUrlAdr + ">Link to this Activities Website if Available</a>")
+        holderDiv.append("<a href='" + response.results[i].homePageUrlAdr + "'>Link to this Activities Website if Available</a>")
 
       
 

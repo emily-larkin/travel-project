@@ -40,9 +40,30 @@ $(document).ready(function () {
     location.href = "outputPage.html";
   });
 
-  $(document).on("click", function () {
-    console.log("click")
-    // $("#dropdown1").hide();
+  $(".g-signin2").on("click", function () {
+
+    var provider = new firebase.auth.GoogleAuthProvider();
+    console.log(provider)
+    var auth = firebase.auth();
+    console.log(auth);
+
+    firebase.auth().signInWithPopup(provider).then(function(result) {
+      // This gives you a Google Access Token. You can use it to access the Google API.
+      var token = result.credential.accessToken;
+      // The signed-in user info.
+      var user = result.user;
+      console.log(token, user)
+      
+    }).catch(function(error) {
+      // Handle Errors here.
+      var errorCode = error.code;
+      var errorMessage = error.message;
+      // The email of the user's account used.
+      var email = error.email;
+      // The firebase.auth.AuthCredential type that was used.
+      var credential = error.credential;
+      // ...
+    });
   });
 
 
@@ -83,59 +104,40 @@ $(document).ready(function () {
   //Click event for each images takes you to the second page
 
   // snapshot to database
-  database.ref().on("child_added", function (childSnapshot) {
-    function onSignIn(googleUser) {
+  // database.ref().on("child_added", function (childSnapshot) {
+    // function onSignIn(googleUser) {
 
-      var name = childSnapshot.getName();
-      var givenName = childSnapshot.getGivenName();
-      var familyName = childSnapshot.getFamilyName();
-      var imageURL = childSnapshot.getImageUrl();
-      var email = childSnapshot.getEmail();
+    //   var name = childSnapshot.getName();
+    //   var givenName = childSnapshot.getGivenName();
+    //   var familyName = childSnapshot.getFamilyName();
+    //   var imageURL = childSnapshot.getImageUrl();
+    //   var email = childSnapshot.getEmail();
 
-      // Useful data for your client-side scripts:
-      var profile = googleUser.getBasicProfile();
-      console.log("ID: " + profile.getId()); // Don't send this directly to your server!
-      console.log('Full Name: ' + profile.getName());
-      console.log('Given Name: ' + profile.getGivenName());
-      console.log('Family Name: ' + profile.getFamilyName());
-      console.log("Image URL: " + profile.getImageUrl());
-      console.log("Email: " + profile.getEmail());
+    //   // Useful data for your client-side scripts:
+    //   var profile = googleUser.getBasicProfile();
+    //   console.log("ID: " + profile.getId()); // Don't send this directly to your server!
+    //   console.log('Full Name: ' + profile.getName());
+    //   console.log('Given Name: ' + profile.getGivenName());
+    //   console.log('Family Name: ' + profile.getFamilyName());
+    //   console.log("Image URL: " + profile.getImageUrl());
+    //   console.log("Email: " + profile.getEmail());
 
-      // The ID token you need to pass to your backend:
-      var id_token = googleUser.getAuthResponse().id_token;
-      console.log("ID Token: " + id_token);
+    //   // The ID token you need to pass to your backend:
+    //   var id_token = googleUser.getAuthResponse().id_token;
+    //   console.log("ID Token: " + id_token);
 
-      // Code for the push
-      var newPerson = ({
-        name: name,
-        givenName: givenName,
-        familyName: familyName,
-        imageURL: imageURL,
-        email: email,
-        dateAdded: firebase.database.ServerValue.TIMESTAMP
-      });
+    //   // Code for the push
+    //   var newPerson = ({
+    //     name: name,
+    //     givenName: givenName,
+    //     familyName: familyName,
+    //     imageURL: imageURL,
+    //     email: email,
+    //     dateAdded: firebase.database.ServerValue.TIMESTAMP
+    //   });
 
-      database.ref().push(newPerson);
+    //   database.ref().push(newPerson);
 
-
-      // var provider = new firebase.auth.GoogleAuthProvider();
-
-      // firebase.auth().signInWithPopup(provider).then(function(result) {
-      //   // This gives you a Google Access Token. You can use it to access the Google API.
-      //   var token = result.credential.accessToken;
-      //   // The signed-in user info.
-      //   var user = result.user;
-      //   // ...
-      // }).catch(function(error) {
-      //   // Handle Errors here.
-      //   var errorCode = error.code;
-      //   var errorMessage = error.message;
-      //   // The email of the user's account used.
-      //   var email = error.email;
-      //   // The firebase.auth.AuthCredential type that was used.
-      //   var credential = error.credential;
-      //   // ...
-      // });
 
       // function for signing out 
       // function signOut() {
@@ -144,10 +146,10 @@ $(document).ready(function () {
       //     console.log('User signed out.');
       //   });
       // }
-    }
+    // }
     // If any errors are experienced, log them to console.
-  }, function (errorObject) {
-    console.log("The read failed: " + errorObject.code);
-  });
+  // }, function (errorObject) {
+  //   console.log("The read failed: " + errorObject.code);
+  // });
 
 });

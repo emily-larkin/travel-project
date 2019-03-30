@@ -191,6 +191,11 @@ padding: 15px 8px 8px 8px;
          width: 0px;
         height: 0px;
     }
+    .btn{
+        position: absolute;
+    left: 615px;
+    top: 408px;
+    }
 }
  
 @media screen and (max-width: 768px){
@@ -214,6 +219,11 @@ padding: 15px 8px 8px 8px;
     #skiing{
          width: 0px;
         height: 0px;
+    }
+    .btn{
+        position: absolute;
+    left: 615px;
+    top: 408px;
     }
 }
 
@@ -239,6 +249,11 @@ padding: 15px 8px 8px 8px;
          width: 0px;
         height: 0px;
     }
+    .btn{
+        position: absolute;
+    left: 615px;
+    top: 408px;
+    }
 }
 
 @media screen and (max-width: 1200px){
@@ -262,6 +277,11 @@ padding: 15px 8px 8px 8px;
     #skiing{
          width: 0px;
         height: 0px;
+    }
+    .btn{
+        position: absolute;
+    left: 615px;
+    top: 408px;
     }
 }
 

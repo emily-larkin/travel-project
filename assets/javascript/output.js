@@ -17,20 +17,12 @@ $.ajax({
 
   console.log(response)
 
-<<<<<<< HEAD
   for (let i = 0; i < response.results.length; i++) {
-=======
-  for (var i = 0; i < response.results.length; i++) {
-    // append location
-    // example: $("#giphy").prepend("<p>Rating of Giph: " + results[i].rating + "</p>");
-    var newItem = $("<div class = 'list-item'>")
->>>>>>> 763b806a816e22ad260128de55626fd632c41ca6
 
     //ajax request for google geocoding api to get location.
 
     var long = response.results[i].place.longitude;
 
-<<<<<<< HEAD
     var lat = response.results[i].place.latitude;
 
     var address = "sucks";
@@ -42,13 +34,6 @@ $.ajax({
       address = response2.results[0].formatted_address
       var holderDiv = $("<div>");
       
-=======
-    newItem.append("<p>Location of Activity: " + response.results[i].place.longitude + " " + response.results[i].place.latitude + "</p>")
-
-    // append distance
-
-
->>>>>>> 763b806a816e22ad260128de55626fd632c41ca6
 
       
 

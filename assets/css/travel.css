@@ -122,13 +122,6 @@ body {
 }
 
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
-<<<<<<< HEAD
-    color: white !important;
-}
-
-.g-signin2 {
-    margin-top: 20px;
-=======
     color: #f8f9fa !important;
 }
 
@@ -137,7 +130,6 @@ body {
 }
 .g-signin2 {
     margin-top: 22px;
->>>>>>> 763b806a816e22ad260128de55626fd632c41ca6
     position: relative;
     top: 0px;
     left: 950px;
@@ -147,24 +139,6 @@ body {
 padding: 15px 8px 8px 8px;
 }
 
-<<<<<<< HEAD
-#connectedm77q8jo3xgs2 {
-    position: relative;
-    top: -6px;
-    left: -2px;
-    color: #053F48;
-}
-
-#not_signed_in2yc3brpzljl0 {
-    position: relative;
-    top: -6px;
-    left: -2px;
-    color: #053F48;
-}
-
-.abcRioButtonLightBlue {
-    background-color: #f8f9fa;
-=======
 .abcRioButtonLightBlue {
     background-color: #f8f9fa;
     color: #053F48
@@ -181,5 +155,4 @@ padding: 15px 8px 8px 8px;
     left: -5px;
     background-color: #f8f9fa;
     color: #053F48
->>>>>>> 763b806a816e22ad260128de55626fd632c41ca6
 }

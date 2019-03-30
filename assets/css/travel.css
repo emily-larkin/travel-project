@@ -191,7 +191,7 @@ background-size: cover;
     .btn,
 .btn-large,
 .btn-small{
-    position: sticky;
+    position: static;
 }
 }
 
@@ -229,7 +229,7 @@ background-size: cover;
     .btn,
 .btn-large,
 .btn-small{
-    position: sticky;
+    position: static;
 }
 }
 
@@ -266,7 +266,7 @@ background-size: cover;
     .btn,
 .btn-large,
 .btn-small{
-    position: sticky;
+    position: static;
 }
 }
 
@@ -303,7 +303,7 @@ background-size: cover;
     .btn,
 .btn-large,
 .btn-small{
-    position: sticky;
+    position: static;
 }
 }
 

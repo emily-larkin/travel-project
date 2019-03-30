@@ -106,10 +106,14 @@ h6 {
     position: relative;
     top: 0px;
     left: 933px;
+    background-color: #f8f9fa;
+    color: #053F48
 }
 
 .abcRioButtonIcon {
     padding: 15px 8px 8px 8px;
+    background-color: #f8f9fa;
+    color: #053F48
 }
 
 .abcRioButtonLightBlue {
@@ -127,6 +131,7 @@ h6 {
     left: -5px;
     top: 1px;
     background-color: #f8f9fa;
+    color: #053F48
 }
 
 img {
@@ -149,7 +154,7 @@ img {
 }
 
 #member {
-    color: white;
+    color: #f8f9fa;
 }
 
 .thumbnail {

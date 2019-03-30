@@ -137,7 +137,7 @@ body {
     background-color: #053F48;
     padding-top: 1%;
     font-size: 15px;
-    color: white;
+    color: #f8f9fa;
     margin-top: 200px;
     /* height: 150px; */
 }
@@ -155,10 +155,14 @@ body {
     position: relative;
     top: 0px;
     left: 950px;
+    background-color: #f8f9fa;
+    color: #053F48
 }
 
 .abcRioButtonIcon {
     padding: 15px 8px 8px 8px;
+    background-color: #f8f9fa;
+    color: #053F48
 }
 
 .abcRioButtonLightBlue {
@@ -346,5 +350,5 @@ img {
 }
 
 #member {
-    color: white;
+    color: #f8f9fa;
 }

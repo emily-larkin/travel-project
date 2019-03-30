@@ -3,17 +3,6 @@ body {
     background-size: cover;
 }
 
-.searchBar {
-    background-color: #A9EEE6;
-    /* margin-top: 23%; */
-    /* margin-left: 95%; */
-    width: 384px;
-    position: absolute;
-    top: 376px;
-    right: 475px;
-    margin: 45px 50px 50px 50px;
-    box-shadow: 4px;
-}
 
 ::placeholder {
     color: black;
@@ -93,7 +82,7 @@ body {
 .btn-large,
 .btn-small {
     text-decoration: none;
-    color: #fff;
+    color: #f8f9fa;
     background-color: #26a69a;
     text-align: center;
     letter-spacing: .5px;
@@ -101,8 +90,9 @@ body {
     transition: background-color .2s ease-out;
     cursor: pointer;
     position: absolute;
-    left: 615px;
-    top: 408px;
+    left: 542px;
+    top: 358px;
+    z-index: 1000;
 }
 
 /* .col-4 {
@@ -132,11 +122,22 @@ body {
 }
 
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+<<<<<<< HEAD
     color: white !important;
 }
 
 .g-signin2 {
     margin-top: 20px;
+=======
+    color: #f8f9fa !important;
+}
+
+#dropdown1 {
+    height: 200px;
+}
+.g-signin2 {
+    margin-top: 22px;
+>>>>>>> 763b806a816e22ad260128de55626fd632c41ca6
     position: relative;
     top: 0px;
     left: 950px;
@@ -146,6 +147,7 @@ body {
 padding: 15px 8px 8px 8px;
 }
 
+<<<<<<< HEAD
 #connectedm77q8jo3xgs2 {
     position: relative;
     top: -6px;
@@ -162,4 +164,22 @@ padding: 15px 8px 8px 8px;
 
 .abcRioButtonLightBlue {
     background-color: #f8f9fa;
+=======
+.abcRioButtonLightBlue {
+    background-color: #f8f9fa;
+    color: #053F48
+}
+
+.abcRioButton {
+    background-color: #f8f9fa;
+    color: #053F48
+}
+
+.abcRioButtonContents {
+    position: relative;
+    top: -15px;    
+    left: -5px;
+    background-color: #f8f9fa;
+    color: #053F48
+>>>>>>> 763b806a816e22ad260128de55626fd632c41ca6
 }

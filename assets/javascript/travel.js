@@ -37,10 +37,21 @@ $(document).ready(function () {
   $('.dropdown-trigger').dropdown();
 
   $("body").on("click", ".activity", function () {
+<<<<<<< HEAD
     console.log()
     location.href = "outputPage.html";
   });
 
+=======
+    location.href = "outputPage.html";
+  });
+
+  $(document).on("click", function(){
+    console.log("click")
+    // $("#dropdown1").hide();
+  });
+
+>>>>>>> 763b806a816e22ad260128de55626fd632c41ca6
 
   // on click function to call the api, should use data- to input which activity is being clicked or searched
   $(".dropdown-content").on("click", function (e) {

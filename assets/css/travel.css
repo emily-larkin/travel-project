@@ -1,5 +1,9 @@
 body {
     background-image: url("../placeholder-images/mountains.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
     background-size: cover;
 }
 
@@ -107,6 +111,7 @@ body {
 
 .activities-holder {
     display: block;
+    height: 100vh;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -123,6 +128,19 @@ body {
 
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
     color: #f8f9fa !important;
+}
+
+.page-footer {
+    background-color: #053F48;
+    padding-top: 1%;
+    font-size: 15px;
+    color: white;
+    margin-top: 200px;
+    /* height: 150px; */
+}
+
+.container-footer {
+    height: 180px;
 }
 
 #dropdown1 {

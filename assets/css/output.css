@@ -3,11 +3,11 @@ html {
 }
 
 #bg-image {
-    background-image: url("../placeholder-images/skiing.jpg");
+    background-image: url("../placeholder-images/mountains.jpg");
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover; */
     background-size: cover;
 
     height: 100vh;
@@ -34,7 +34,7 @@ html {
 .flex-container {
     display: flex;
 
-    justify-content: flex-end;
+    justify-content: center;
 
     position: relative;
 

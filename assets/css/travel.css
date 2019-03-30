@@ -175,3 +175,26 @@ padding: 15px 8px 8px 8px;
     background-color: #f8f9fa;
     color: #053F48
 }
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    height: 20px;
+    width: 20px;
+}
+
+#bottomRow {
+    margin-left: 66px;
+}
+
+#teamMembers {
+    align-content: center;
+}
+
+#teamMembers {
+    margin-left: 58px;
+}
+
+#member {
+    color: white;
+}

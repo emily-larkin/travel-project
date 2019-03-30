@@ -131,20 +131,6 @@ h6 {
 padding: 15px 8px 8px 8px;
 }
 
-#connecteds37o9v7ec5kw {
-    position: relative;
-    top: -6px;
-    left: -2px;
-    color: #053F48;
-}
-
-#not_signed_ink2gzpvfi97g8 {
-    position: relative;
-    top: -6px;
-    left: -2px;
-    color: #053F48;
-}
-
 .abcRioButtonLightBlue {
     background-color: #f8f9fa;
 }
@@ -154,10 +140,4 @@ padding: 15px 8px 8px 8px;
     top: -6px;
     left: -2px;
     color: #053F48;
-}
-
-.abcRioButtonContents {
-    position: relative;
-    top: -8px;	   
-    left: -5px;
 }

@@ -36,6 +36,12 @@ $(document).ready(function () {
 
   $('.dropdown-trigger').dropdown();
 
+  $("body").on("click", ".activity", function () {
+    console.log()
+    location.href = "outputPage.html";
+  });
+
+
   // on click function to call the api, should use data- to input which activity is being clicked or searched
   $(".dropdown-content").on("click", function (e) {
     sessionStorage.setItem("activityName", e.target.innerHTML);

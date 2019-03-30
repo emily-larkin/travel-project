@@ -1,65 +1,70 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
-    <meta charset="UTF-8">
 
-    <title>
+    <head>
+        <meta charset="UTF-8">
 
-    </title>
-    <!-- firebase link  -->
-    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+        <title>
 
-    <!-- reset css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        </title>
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <!-- Reset -->
+        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
 
-    <!-- Materialize -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!-- firebase link  -->
+        <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
 
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
-    <!-- css -->
-    <link rel="stylesheet" type="text/css" href="./assets/css/travel.css">
+        <!-- Materialize -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-    <!-- Firebase Reference -->
-    <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
+        <!-- css -->
+        <link rel="stylesheet" type="text/css" href="./assets/css/travel.css">
 
-    <!-- google sign on stuff  -->
-    <meta name="google-signin-scope" content="profile email">
-    <meta name="google-signin-client_id"
-        content="549559435677-qc9rorm5dt7j8dj7j59su1711ql5uleq.apps.googleusercontent.com">
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
+        <!-- Firebase Reference -->
+        <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
 
-</head>
-<nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="#">The Adventure Setter</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+        <!-- google sign on stuff  -->
+        <meta name="google-signin-scope" content="profile email">
+        <meta name="google-signin-client_id"
+            content="549559435677-qc9rorm5dt7j8dj7j59su1711ql5uleq.apps.googleusercontent.com">
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="outputPage.html">Activities</a>
-            </li>
-            <li class="g-signin2" data-onsuccess="onSignIn">
-                <a href="#" onclick="signOut();">Sign out</a>
-            </li>
-    </div>
-</nav>
-<!-- Home Page -->
+    </head>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">The Adventure Setter</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="outputPage.html">Activities</a>
+                </li>
+                <li class="g-signin2" data-onsuccess="onSignIn">
+                    <a href="#" onclick="signOut();">Sign out</a>
+                </li>
+        </div>
+    </nav>
+    <!-- Home Page -->
+
+   
 
 <body>
     <div class="activities-holder">
 
         <!-- Empty Row -->
         <!-- <div class="containter">
+
         <div class="row" id="empty"></div>
     </div> -->
 
@@ -78,15 +83,15 @@
 
             <!-- Dropdown Structure -->
             <ul id='dropdown1' class='dropdown-content'>
-                <li><a class="activity" data-pick="list" href="#!" value="Hiking">Hiking</a></li>
-                <li><a class="activity" data-pick="list" href="#!" value="Sailing">Sailing</a></li>
-                <li><a class="activity" data-pick="list" href="#!" value="Kayaking">Kayaking</a></li>
-                <li><a class="activity" data-pick="list" href="#!" value="Skiing">Skiing</a></li>
-                <li><a class="activity" data-pick="list" href="#!" value="Skydiving">Skydiving</a></li>
-                <li><a class="activity" data-pick="list" href="#!" value="Surfing">Surfing</a></li>
-                <li><a class="activity" data-pick="list" href="#!" value="Mountain Biking">Mountain Biking</a></li>
-                <li><a class="activity" data-pick="list" href="#!" value="Dancing">Dancing</a></li>
-                <li><a class="activity" data-pick="list" href="#!" value="Climbing">Climbing</a></li>
+                <li><a class="activity" data-pick="list" href="#!">Hiking</a></li>
+                <li><a class="activity" data-pick="list" href="#!">Sailing</a></li>
+                <li><a class="activity" data-pick="list" href="#!">Kayaking</a></li>
+                <li><a class="activity" data-pick="list" href="#!">Skiing</a></li>
+                <li><a class="activity" data-pick="list" href="#!">Skydiving</a></li>
+                <li><a class="activity" data-pick="list" href="#!">Surfing</a></li>
+                <li><a class="activity" data-pick="list" href="#!">Mountain Biking</a></li>
+                <li><a class="activity" data-pick="list" href="#!">Dancing</a></li>
+                <li><a class="activity" data-pick="list" href="#!">Climbing</a></li>
             </ul>
 
         </center>
@@ -109,15 +114,14 @@
 
 
 
-</body>
 
 
-<!-- jquery  -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- jquery  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-<!-- JavaScript -->
-<script src="./assets/javascript/travel.js"></script>
+    <!-- JavaScript -->
+    <script src="./assets/javascript/travel.js"></script>
 
 </html>

@@ -2,7 +2,7 @@
 
 //Then when the query loads, make a for statement that creates the divs and put the activity data within them.
 
-var activity = sessionStorage.getItem("activity");
+var activity = sessionStorage.getItem("activityName");
 
 console.log(activity);
 
@@ -39,13 +39,19 @@ $.ajax({
 
       var newItem = $("<div class = 'list-item flex-container'>")
 
-      newItem.append("<img class = 'thumbnail' src =" + response.results[i].assetImages[0].imageUrlAdr + " width ='70px' height = '70px' alt = 'img'>")
+      if(response.results[i].assetImages.length > 0)
 
-     
+        newItem.append("<img class = 'thumbnail' src =" + response.results[i].assetImages[0].imageUrlAdr + " width ='70px' height = '70px' alt = 'img'>")
+      
+      else
+
+        newItem.append("<img class = 'thumbnail' src = './assets/placeholder-images/placeholder.png' width ='70px' height = '70px' alt = 'img'>")
 
       holderDiv.append("<p>" + response.results[i].assetName + "</p>")
 
-      holderDiv.append("<a href=" + response.results[i].homePageUrlAdr + "> Website</a>")
+      if(response.results[i].homePageUrlAdr !== "")
+
+        holderDiv.append("<a href=" + response.results[i].homePageUrlAdr + "> Website</a>")
 
       
 

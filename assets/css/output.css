@@ -92,6 +92,8 @@ html {
     bottom: 10px;
 
     top: 10px;
+
+    left: 10px;
 }
 
 .navbar {
@@ -166,4 +168,8 @@ padding: 15px 8px 8px 8px;
 
 .thumbnail{
     margin: 15px;
+
+    width: 70px;
+
+    height: 70px;
 }

@@ -86,7 +86,7 @@ body {
 .btn-large,
 .btn-small {
     text-decoration: none;
-    color: #fff;
+    color: #f8f9fa;
     background-color: #26a69a;
     text-align: center;
     letter-spacing: .5px;
@@ -127,7 +127,7 @@ body {
 }
 
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
-    color: white !important;
+    color: #f8f9fa !important;
 }
 
 .page-footer {
@@ -155,6 +155,16 @@ body {
 
 .abcRioButtonIcon {
 padding: 15px 8px 8px 8px;
+}
+
+.abcRioButtonLightBlue {
+    background-color: #f8f9fa;
+    color: #053F48
+}
+
+.abcRioButton {
+    background-color: #f8f9fa;
+    color: #053F48
 }
 
 .abcRioButtonContents {

@@ -55,6 +55,8 @@ Christa -- Styling and CSS with some of the HTML structure for the output page. 
 
 Michael -- Giphy api, then not. Worked on the css page for index.html
 
+Ashlyn -- Developed the functionality for 
+
 <!-- 
 Weather API Request
 The base URL for our weather API is 

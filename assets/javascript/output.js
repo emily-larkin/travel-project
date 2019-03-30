@@ -17,22 +17,49 @@ $.ajax({
 
   console.log(response)
 
-  for (var i = 0; i < response.results.length; i++) {
-    // append location
-    // example: $("#giphy").prepend("<p>Rating of Giph: " + results[i].rating + "</p>");
-    var newItem = $("<div class = 'list-item'>")
+  for (let i = 0; i < response.results.length; i++) {
 
-    newItem.append("<p>" + response.results[i].assetName + "</p>")
+    //ajax request for google geocoding api to get location.
 
-    newItem.append("<p>" + response.results[i].homePageUrlAdr + "</p>")
+    var long = response.results[i].place.longitude;
 
-    newItem.append("<p>Location of Activity: " + response.results[i].place.longitude + " " + response.results[i].place.latitude + "</p>")
+    var lat = response.results[i].place.latitude;
 
-    // append distance
+    var address = "sucks";
+
+    $.ajax({
+      url: "https://maps.googleapis.com/maps/api/geocode/json?latlng=" + lat + "," + long +" &key=AIzaSyDXLr5R_-ztYDx3GcZtuWCS4FsY6JrOa9A",
+      method: "GET"
+    }).then(function (response2) {
+      address = response2.results[0].formatted_address
+      var holderDiv = $("<div>");
+      
+
+      
+
+      var newItem = $("<div class = 'list-item flex-container'>")
+
+      newItem.append("<img class = 'thumbnail' src =" + response.results[i].assetImages[0].imageUrlAdr + " width ='70px' height = '70px' alt = 'img'>")
+
+     
+
+      holderDiv.append("<p>" + response.results[i].assetName + "</p>")
+
+      holderDiv.append("<a href=" + response.results[i].homePageUrlAdr + "> Website</a>")
+
+      
+
+      newItem.append(holderDiv);
+
+      holderDiv.append("<p>Location: " + address+ "</p>")
+
+
+      $("#scroll-list").append(newItem)
+    })
 
 
 
-    $("#scroll-list").append(newItem)
+    
   }
 
 })

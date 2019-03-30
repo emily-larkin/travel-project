@@ -5,9 +5,9 @@ html {
 #bg-image {
     background-image: url("../placeholder-images/mountains.jpg");
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover; */
     background-size: cover;
 
     height: 100vh;
@@ -44,11 +44,15 @@ html {
 }
 
 .list-item {
-    background: #ffffff;
+    background: #f8f9fa;
 
     margin: 10px;
 
     height: 100px;
+
+    display: flex;
+    
+    justify-content: flex-start;
 }
 
 .top-buffer {
@@ -83,13 +87,17 @@ html {
 
     position: absolute;
 
-    right: 0px;
+    right: -17px;
+
+    bottom: 10px;
+
+    top: 10px;
 }
 
 .navbar {
     background-color: #053F48;
     height: 55px;
-    color: white;
+    color: #f8f9fa;
     text-align: right;
 }
 
@@ -97,7 +105,7 @@ html {
     background-color: #053F48;
     padding-top: 1%;
     font-size: 12px;
-    color: white;
+    color: #f8f9fa;
 }
 
 .nav-link {
@@ -121,31 +129,30 @@ h6 {
 }
 
 .g-signin2 {
-    margin-top: 20px;
+    margin-top: 2px;
     position: relative;
     top: 0px;
-    left: 950px;
+    left: 933px;
 }
 
 .abcRioButtonIcon {
 padding: 15px 8px 8px 8px;
 }
 
-#connectedm77q8jo3xgs2 {
-    position: relative;
-    top: -6px;
-    left: -2px;
-    color: #053F48;
-}
-
-#not_signed_in2yc3brpzljl0 {
-    position: relative;
-    top: -6px;
-    left: -2px;
-    color: #053F48;
-}
-
 .abcRioButtonLightBlue {
+    background-color: #f8f9fa;
+    color: #053F48
+}
+
+.abcRioButton {
+    background-color: #f8f9fa;
+    color: #053F48
+}
+
+.abcRioButtonContents {
+    position: relative;
+    left: -5px;
+    top: 1px;
     background-color: #f8f9fa;
 }
 
@@ -170,4 +177,8 @@ img {
 
 #member {
     color: white;
+}
+  
+.thumbnail{
+    margin: 15px;
 }

@@ -121,8 +121,22 @@ h6 {
 }
 
 .g-signin2 {
-    margin-top: 10px;
+    margin-top: 17px;
     position: relative;
     top: 0px;
-    left: 980px;
+    left: 950px;
+}
+
+.abcRioButtonLightBlue {
+    height: 45px;
+}
+
+.abcRioButtonIcon {
+padding: 15px 8px 8px 8px;
+}
+
+.abcRioButtonContents {
+position: relative;
+top: -8px;
+left: -5px;
 }

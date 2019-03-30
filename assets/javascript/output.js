@@ -4,10 +4,9 @@
 
 var activity = sessionStorage.getItem("activityName");
 
-console.log(activity);
+console.log("activity: " + activity);
 
 var ajaxurl = "https://cors-anywhere.herokuapp.com/http://api.amp.active.com/v2/search?query=" + activity + "&start_date=" + getTodaysDate() + "&near=Salt%20Lake%20City,UT,US&show_distance=true&sort=distance&api_key=9deez853x9tvu4b2ycpsjs7m"
-
 
 console.log(ajaxurl)
 $.ajax({
@@ -33,9 +32,6 @@ $.ajax({
     }).then(function (response2) {
       address = response2.results[0].formatted_address
       var holderDiv = $("<div>");
-      
-
-      
 
       var newItem = $("<div class = 'list-item flex-container'>")
 
@@ -62,9 +58,6 @@ $.ajax({
 
       $("#scroll-list").append(newItem)
     })
-
-
-
     
   }
 
@@ -81,4 +74,3 @@ function getTodaysDate() {
   today = yyyy + '-' + mm + '-' + dd + "..";
   return today
 }
-

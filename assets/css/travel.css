@@ -82,7 +82,7 @@ body {
 .btn-large,
 .btn-small {
     text-decoration: none;
-    color: #fff;
+    color: #f8f9fa;
     background-color: #26a69a;
     text-align: center;
     letter-spacing: .5px;
@@ -122,7 +122,7 @@ body {
 }
 
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
-    color: white !important;
+    color: #f8f9fa !important;
 }
 
 #dropdown1 {

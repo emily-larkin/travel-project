@@ -3,17 +3,6 @@ body {
     background-size: cover;
 }
 
-.searchBar {
-    background-color: #A9EEE6;
-    /* margin-top: 23%; */
-    /* margin-left: 95%; */
-    width: 384px;
-    position: absolute;
-    top: 376px;
-    right: 475px;
-    margin: 45px 50px 50px 50px;
-    box-shadow: 4px;
-}
 
 ::placeholder {
     color: black;
@@ -101,8 +90,9 @@ body {
     transition: background-color .2s ease-out;
     cursor: pointer;
     position: absolute;
-    left: 615px;
-    top: 408px;
+    left: 542px;
+    top: 358px;
+    z-index: 1000;
 }
 
 /* .col-4 {
@@ -155,3 +145,24 @@ body {
 
 
 
+#dropdown1 {
+    height: 200px;
+}
+.g-signin2 {
+    margin-top: 22px;
+    position: relative;
+    top: 0px;
+    left: 950px;
+}
+
+.abcRioButtonIcon {
+padding: 15px 8px 8px 8px;
+}
+
+.abcRioButtonContents {
+    position: relative;
+    top: -15px;    
+    left: -5px;
+    background-color: #f8f9fa;
+    color: #053F48
+}

@@ -112,9 +112,29 @@ html {
     color: #f8f9fa;
 }
 
+h6 {
+    line-height: 12px;
+}
+
 .navbar-light .navbar-brand {
     color: #f8f9fa;
 }
 
+.g-signin2 {
+    margin-top: 2px;
+    position: relative;
+    top: 0px;
+    left: 933px;
+}
 
+.abcRioButtonIcon {
+padding: 15px 8px 8px 8px;
+}
 
+.abcRioButtonContents {
+    position: relative;
+    left: -5px;
+    top: 1px;
+    background-color: #f8f9fa;
+    color: #053F48
+}

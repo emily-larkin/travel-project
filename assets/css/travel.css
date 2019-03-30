@@ -141,9 +141,16 @@ padding: 15px 8px 8px 8px;
 
 .abcRioButtonLightBlue {
     background-color: #f8f9fa;
+    color: #053F48
+}
+
+.abcRioButton {
+    background-color: #f8f9fa;
+    color: #053F48
 }
 
 .abcRioButtonContents {
     position: relative;
     top: -15px;    
+    left: -5px;
 }

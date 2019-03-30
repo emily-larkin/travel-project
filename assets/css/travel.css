@@ -306,3 +306,26 @@ background-size: cover;
     position: static;
 }
 }
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    height: 20px;
+    width: 20px;
+}
+
+#bottomRow {
+    margin-left: 66px;
+}
+
+#teamMembers {
+    align-content: center;
+}
+
+#teamMembers {
+    margin-left: 58px;
+}
+
+#member {
+    color: white;
+}

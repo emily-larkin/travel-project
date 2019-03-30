@@ -1,5 +1,9 @@
 body {
     background-image: url("../placeholder-images/mountains.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
     background-size: cover;
 }
 
@@ -86,7 +90,7 @@ body {
 .btn-large,
 .btn-small {
     text-decoration: none;
-    color: #fff;
+    color: #f8f9fa;
     background-color: #26a69a;
     text-align: center;
     letter-spacing: .5px;
@@ -94,8 +98,8 @@ body {
     transition: background-color .2s ease-out;
     cursor: pointer;
     position: absolute;
-    left: 607px;
-    top: 395px;
+    left: 622px;
+    top: 363px;
     z-index: 1000;
 }
 
@@ -107,10 +111,12 @@ body {
 .navbar {
     background-color: #053F48;
     height: 55px;
+   
 }
 
 .activities-holder {
     display: block;
+    height: 100vh;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -126,7 +132,20 @@ body {
 }
 
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
-    color: white !important;
+    color: #f8f9fa !important;
+}
+
+.page-footer {
+    background-color: #053F48;
+    padding-top: 1%;
+    font-size: 15px;
+    color: white;
+    margin-top: 200px;
+    /* height: 150px; */
+}
+
+.container-footer {
+    height: 180px;
 }
 
 #dropdown1 {
@@ -169,24 +188,19 @@ background-size: cover;
     }
     
     #hiking{
-       width: 0px;
-        height: 0px;
+       display: none;
     }
     #skiing{
-        width: 0px;
-        height: 0px;
+        display: none;
     }
     #mountainBike{
-        width: 0px;
-        height: 0px;
+        display: none;
     }
     #surfing{
-        width: 0px;
-        height: 0px;
+        display: none;
     }
     #skydiving{
-        width: 0px;
-        height: 0px;
+        display: none;
     }
     .btn,
 .btn-large,
@@ -207,24 +221,19 @@ background-size: cover;
     }
     
    #hiking{
-       width: 0px;
-        height: 0px;
+       display: none;
     }
     #skiing{
-        width: 0px;
-        height: 0px;
+        display: none;
     }
     #mountainBike{
-        width: 0px;
-        height: 0px;
+        display: none;
     }
     #surfing{
-        width: 0px;
-        height: 0px;
+        display: none;
     }
     #skydiving{
-        width: 0px;
-        height: 0px;
+        display: none;
     }
     .btn,
 .btn-large,
@@ -244,24 +253,19 @@ background-size: cover;
     }
     
     #hiking{
-       width: 0px;
-        height: 0px;
+       display: none;
     }
     #skiing{
-        width: 0px;
-        height: 0px;
+        display: none;
     }
     #mountainBike{
-        width: 0px;
-        height: 0px;
+        display: none;
     }
     #surfing{
-        width: 0px;
-        height: 0px;
+        display: none;
     }
     #skydiving{
-        width: 0px;
-        height: 0px;
+        display: none;
     }
     .btn,
 .btn-large,
@@ -281,24 +285,19 @@ background-size: cover;
     }
     
    #hiking{
-       width: 0px;
-        height: 0px;
+       display: none;
     }
     #skiing{
-        width: 0px;
-        height: 0px;
+        display: none;
     }
     #mountainBike{
-        width: 0px;
-        height: 0px;
+        display: none;
     }
     #surfing{
-        width: 0px;
-        height: 0px;
+        display: none;
     }
     #skydiving{
-        width: 0px;
-        height: 0px;
+        display: none;
     }
     .btn,
 .btn-large,
@@ -306,4 +305,3 @@ background-size: cover;
     position: static;
 }
 }
-

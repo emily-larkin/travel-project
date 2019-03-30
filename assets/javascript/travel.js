@@ -37,8 +37,12 @@ $(document).ready(function () {
   $('.dropdown-trigger').dropdown();
 
   $("body").on("click", ".activity", function () {
-    console.log()
     location.href = "outputPage.html";
+  });
+
+  $(document).on("click", function(){
+    console.log("click")
+    // $("#dropdown1").hide();
   });
 
 

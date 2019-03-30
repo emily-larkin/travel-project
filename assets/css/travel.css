@@ -3,17 +3,6 @@ body {
     background-size: cover;
 }
 
-.searchBar {
-    background-color: #A9EEE6;
-    /* margin-top: 23%; */
-    /* margin-left: 95%; */
-    width: 384px;
-    position: absolute;
-    top: 376px;
-    right: 475px;
-    margin: 45px 50px 50px 50px;
-    box-shadow: 4px;
-}
 
 ::placeholder {
     color: black;
@@ -101,8 +90,9 @@ body {
     transition: background-color .2s ease-out;
     cursor: pointer;
     position: absolute;
-    left: 615px;
-    top: 408px;
+    left: 542px;
+    top: 358px;
+    z-index: 1000;
 }
 
 /* .col-4 {
@@ -133,4 +123,8 @@ body {
 
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
     color: white !important;
+}
+
+#dropdown1 {
+    height: 200px;
 }

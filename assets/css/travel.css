@@ -168,69 +168,104 @@ padding: 15px 8px 8px 8px;
     background-color: #f8f9fa;
 }
 
-/* @media screen and (max-width: 600px) {
-  body {
-    background-image: "../placeholder-images/mountains.jpg";
-    background-size: contain;
-  }
 
-  #hiking {
-    /* Box-model */
-    /* width: 25%;
-    padding: 200px;
-  }
+@media screen and (max-width: 600px){
+    #hiking{
+        width: 0px;
+        height: 0px;
+    }
+    #skydiving{
+    
+        width: 0px;
+        height: 0px;
+    }
+    #surfing{
+         width: 0px;
+        height: 0px;
+    }
+    #mountainBike{
+         width: 0px;
+        height: 0px;
+    }
+    #skiing{
+         width: 0px;
+        height: 0px;
+    }
+}
+ 
+@media screen and (max-width: 768px){
+    #hiking{
+        width: 0px;
+        height: 0px;
+    }
+    #skydiving{
+    
+        width: 0px;
+        height: 0px;
+    }
+    #surfing{
+         width: 0px;
+        height: 0px;
+    }
+    #mountainBike{
+         width: 0px;
+        height: 0px;
+    }
+    #skiing{
+         width: 0px;
+        height: 0px;
+    }
 }
 
-@media screen and (min-width: 600px) {
-  body {
-    background-image: "../placeholder-images/mountains.jpg";
-    background-size: contain;
-  }
-
-  #hiking {
-    /* Box-model */
-    /* width: 25%;
-    padding: 200px;
-  }
+@media screen and (max-width: 992px){
+    #hiking{
+        width: 0px;
+        height: 0px;
+    }
+    #skydiving{
+    
+        width: 0px;
+        height: 0px;
+    }
+    #surfing{
+         width: 0px;
+        height: 0px;
+    }
+    #mountainBike{
+         width: 0px;
+        height: 0px;
+    }
+    #skiing{
+         width: 0px;
+        height: 0px;
+    }
 }
 
-@media screen and (min-width: 768px) {
-  body {
-    background-image: "../placeholder-images/mountains.jpg";
-    background-size: contain; */
-  /* }
+@media screen and (max-width: 1200px){
+    #hiking{
+        width: 0px;
+        height: 0px;
+    }
+    #skydiving{
+    
+        width: 0px;
+        height: 0px;
+    }
+    #surfing{
+         width: 0px;
+        height: 0px;
+    }
+    #mountainBike{
+         width: 0px;
+        height: 0px;
+    }
+    #skiing{
+         width: 0px;
+        height: 0px;
+    }
+}
 
-  #hiking {
-    /* Box-model */
-    /* width: 25%;
-    padding: 200px;
-  }
-} */
+ 
 
-/* @media screen and (min-width: 992px) {
-  body {
-    background-image: "../placeholder-images/mountains.jpg";
-    background-size: contain;
-  }
-
-  #hiking {
-    /* Box-model */
-    /* width: 25%;
-    padding: 200px; */
-  /* }
-}  */
-
-/* @media screen and (max-width: 1200px) {
-  body {
-    background-image: "../placeholder-images/mountains.jpg";
-    background-size: contain;
-  } */
-
-  /* #hiking {
-    /* Box-model */
-    /* width: 25%;
-    padding: 200px; */
-  /* }
-} */ 
 
 

@@ -129,7 +129,7 @@ body {
     height: 200px;
 }
 .g-signin2 {
-    margin-top: 20px;
+    margin-top: 22px;
     position: relative;
     top: 0px;
     left: 950px;
@@ -139,14 +139,14 @@ body {
 padding: 15px 8px 8px 8px;
 }
 
-#connectedm77q8jo3xgs2 {
+#connectedvtcb1f1mzko6 {
     position: relative;
     top: -6px;
     left: -2px;
     color: #053F48;
 }
 
-#not_signed_in2yc3brpzljl0 {
+#not_signed_inpb6jbor4ufw8 {
     position: relative;
     top: -6px;
     left: -2px;
@@ -155,4 +155,10 @@ padding: 15px 8px 8px 8px;
 
 .abcRioButtonLightBlue {
     background-color: #f8f9fa;
+}
+
+.abcRioButtonContents {
+    position: relative;
+    top: -8px;	   
+    left: -5px;
 }

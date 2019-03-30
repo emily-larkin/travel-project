@@ -9,90 +9,58 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover; */
     background-size: cover;
-
     height: 100vh;
 }
 
 #activity-list {
 
     background: #074955;
-
     margin: 30px;
-
     width: 1000px;
-
     position: relative;
-
     height: calc(100vh - 60px);
-
     overflow: hidden;
-
     padding: 10px;
-
 }
 
 .flex-container {
     display: flex;
-
     justify-content: center;
-
     position: relative;
-
     z-index: 100000000000;
-
-
 }
 
 .list-item {
     background: #f8f9fa;
-
     margin: 10px;
-
     height: 100px;
-
     display: flex;
-    
     justify-content: flex-start;
 }
 
 .top-buffer {
     background: #339955;
-
     position: absolute;
-
     top: 0;
-
     width: 100%;
-
     height: 10px;
 }
 
 .bottom-buffer {
     background: #339955;
-
     position: absolute;
-
     bottom: 0;
-
     width: 100%;
-
     height: 10px;
 }
 
 #scroll-list {
-
     overflow-y: scroll;
-
     overflow-x: hidden;
-
     position: absolute;
-
-    right: -17px;
-
+    right: 10px;
     bottom: 10px;
-
     top: 10px;
-
     left: 10px;
 }
 
@@ -118,7 +86,10 @@ html {
     color: #f8f9fa;
 }
 
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
     color: #f8f9fa;
 }
 
@@ -138,7 +109,7 @@ h6 {
 }
 
 .abcRioButtonIcon {
-padding: 15px 8px 8px 8px;
+    padding: 15px 8px 8px 8px;
 }
 
 .abcRioButtonLightBlue {
@@ -180,8 +151,8 @@ img {
 #member {
     color: white;
 }
-  
-.thumbnail{
+
+.thumbnail {
     margin: 15px;
 
     width: 70px;

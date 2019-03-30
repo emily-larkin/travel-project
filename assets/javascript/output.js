@@ -4,17 +4,13 @@
 
 var activity = sessionStorage.getItem("activityName");
 
-console.log("activity: " + activity);
-
 var ajaxurl = "https://cors-anywhere.herokuapp.com/http://api.amp.active.com/v2/search?query=" + activity + "&start_date=" + getTodaysDate() + "&near=Salt%20Lake%20City,UT,US&show_distance=true&sort=distance&api_key=9deez853x9tvu4b2ycpsjs7m"
 
-console.log(ajaxurl)
 $.ajax({
   url: ajaxurl,
   method: "GET"
 }).then(function (response) {
 
-  console.log(response)
 
   for (let i = 0; i < response.results.length; i++) {
 
@@ -27,7 +23,7 @@ $.ajax({
     var address = "sucks";
 
     $.ajax({
-      url: "https://maps.googleapis.com/maps/api/geocode/json?latlng=" + lat + "," + long +" &key=AIzaSyDXLr5R_-ztYDx3GcZtuWCS4FsY6JrOa9A",
+      url: "https://maps.googleapis.com/maps/api/geocode/json?latlng=" + lat + "," + long + " &key=AIzaSyDXLr5R_-ztYDx3GcZtuWCS4FsY6JrOa9A",
       method: "GET"
     }).then(function (response2) {
       address = response2.results[0].formatted_address
@@ -35,10 +31,10 @@ $.ajax({
 
       var newItem = $("<div class = 'list-item flex-container'>")
 
-      if(response.results[i].assetImages.length > 0)
+      if (response.results[i].assetImages.length > 0)
 
         newItem.append("<img class = 'thumbnail' src ='" + response.results[i].assetImages[0].imageUrlAdr + "' width ='70px' height = '70px' alt = 'img'>")
-      
+
       else
 
         newItem.append("<img class = 'thumbnail' src = './assets/placeholder-images/placeholder.png' width ='70px' height = '70px' alt = 'img'>")
@@ -47,20 +43,18 @@ $.ajax({
 
       holderDiv.append("<p>" + shortName[0] + "</p>")
 
-      if(response.results[i].homePageUrlAdr !== "")
+      if (response.results[i].homePageUrlAdr !== "")
 
         holderDiv.append("<a href='" + response.results[i].homePageUrlAdr + "'>Link to this Activities Website if Available</a>")
 
-      
-
       newItem.append(holderDiv);
 
-      holderDiv.append("<p>Location: " + address+ "</p>")
+      holderDiv.append("<p>Location: " + address + "</p>")
 
 
       $("#scroll-list").append(newItem)
     })
-    
+
   }
 
 })

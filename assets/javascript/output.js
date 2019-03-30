@@ -39,7 +39,7 @@ $.ajax({
      
       holderDiv.append("<p>" + response.results[i].assetName + "</p>")
 
-      holderDiv.append("<a href=" + response.results[i].homePageUrlAdr + "> Link to Activities Website</a>")
+      holderDiv.append("<a href=" + response.results[i].homePageUrlAdr + "> Link to this Activities Website</a>")
 
       newItem.append(holderDiv);
 

@@ -92,6 +92,8 @@ html {
     bottom: 10px;
 
     top: 10px;
+
+    left: 10px;
 }
 
 .navbar {
@@ -181,4 +183,8 @@ img {
   
 .thumbnail{
     margin: 15px;
+
+    width: 70px;
+
+    height: 70px;
 }

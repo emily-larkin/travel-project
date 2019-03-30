@@ -141,6 +141,16 @@ body {
     padding-top: 1%;
     font-size: 12px;
     color: white;
+    margin-top: 150px;
+    /* height: 150px; */
+}
+
+.container-footer {
+    height: 180px;
+}
+
+.row1 {
+    /* height: 100px; */
 }
 
 

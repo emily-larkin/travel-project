@@ -3,7 +3,7 @@ html {
 }
 
 #bg-image {
-    background-image: url("../placeholder-images/skiing.jpg");
+    background-image: url("../placeholder-images/mountains.jpg");
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -34,7 +34,7 @@ html {
 .flex-container {
     display: flex;
 
-    justify-content: flex-end;
+    justify-content: center;
 
     position: relative;
 
@@ -147,4 +147,27 @@ padding: 15px 8px 8px 8px;
 
 .abcRioButtonLightBlue {
     background-color: #f8f9fa;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    height: 20px;
+    width: 20px;
+}
+
+#bottomRow {
+    margin-left: 66px;
+}
+
+#teamMembers {
+    align-content: center;
+}
+
+#teamMembers {
+    margin-left: 58px;
+}
+
+#member {
+    color: white;
 }

@@ -49,6 +49,10 @@ html {
     margin: 10px;
 
     height: 100px;
+
+    display: flex;
+    
+    justify-content: flex-start;
 }
 
 .top-buffer {
@@ -105,4 +109,9 @@ html {
 
 h6 {
     line-height: 12px;
+}
+
+.thumbnail{
+
+    margin: 15px;
 }

@@ -20,15 +20,21 @@ $.ajax({
   for ( var i = 0; i < response.results.length; i++ ) {
     // append location
     // example: $("#giphy").prepend("<p>Rating of Giph: " + results[i].rating + "</p>");
-    var newItem = $("<div class = 'list-item'>")
+    var newItem = $("<div class = 'list-item flex-container'>")
 
-    newItem.append("<p>" + response.results[i].assetName + "</p>")
+    newItem.append("<img class = 'thumbnail' src =" + response.results[i].assetImages[0].imageUrlAdr + " width ='70px' height = '70px' alt = 'img'>")
 
-    newItem.append("<p>" + response.results[i].homePageUrlAdr + "</p>")
+    var holderDiv = $("<div>");
 
-    newItem.append("<p>Location of Activity: " + response.results[i].place.longitude + " " + response.results[i].place.latitude+ "</p>")
+    holderDiv.append("<p>" + response.results[i].assetName + "</p>")
 
-  // append distance
+    holderDiv.append("<a href=" + response.results[i].homePageUrlAdr + "> Website</a>")
+
+    holderDiv.append("<p>Location of Activity: " + response.results[i].place.longitude + " " + response.results[i].place.latitude+ "</p>")
+
+    newItem.append(holderDiv);
+
+    // append distance
 
   
 

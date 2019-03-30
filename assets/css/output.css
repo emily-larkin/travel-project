@@ -112,8 +112,39 @@ html {
     color: #f8f9fa;
 }
 
+h6 {
+    line-height: 12px;
+}
+
 .navbar-light .navbar-brand {
     color: #f8f9fa;
 }
 
+.g-signin2 {
+    margin-top: 20px;
+    position: relative;
+    top: 0px;
+    left: 950px;
+}
 
+.abcRioButtonIcon {
+padding: 15px 8px 8px 8px;
+}
+
+#connectedm77q8jo3xgs2 {
+    position: relative;
+    top: -6px;
+    left: -2px;
+    color: #053F48;
+}
+
+#not_signed_in2yc3brpzljl0 {
+    position: relative;
+    top: -6px;
+    left: -2px;
+    color: #053F48;
+}
+
+.abcRioButtonLightBlue {
+    background-color: #f8f9fa;
+}

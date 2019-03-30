@@ -15,7 +15,7 @@ html {
 
 #activity-list {
 
-    background: #625772;
+    background: #074955;
 
     margin: 30px;
 
@@ -87,31 +87,76 @@ html {
 
     position: absolute;
 
-    top: 10px;
-
-    left: 0;
+    right: -17px;
 
     bottom: 10px;
 
-    right: 0px;
+    top: 10px;
 }
 
 .navbar {
-    background-color: #625772;
-    height: 90px;
+    background-color: #053F48;
+    height: 55px;
+    color: white;
+    text-align: right;
 }
 
 .page-footer {
-    background-color: #625772;
+    background-color: #053F48;
     padding-top: 1%;
-    font-size: 14px;
+    font-size: 12px;
+    color: white;
+}
+
+.nav-link {
+    text-align: right;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #f8f9fa;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #f8f9fa;
 }
 
 h6 {
     line-height: 12px;
 }
 
-.thumbnail{
+.navbar-light .navbar-brand {
+    color: #f8f9fa;
+}
 
+.g-signin2 {
+    margin-top: 20px;
+    position: relative;
+    top: 0px;
+    left: 950px;
+}
+
+.abcRioButtonIcon {
+padding: 15px 8px 8px 8px;
+}
+
+#connectedm77q8jo3xgs2 {
+    position: relative;
+    top: -6px;
+    left: -2px;
+    color: #053F48;
+}
+
+#not_signed_in2yc3brpzljl0 {
+    position: relative;
+    top: -6px;
+    left: -2px;
+    color: #053F48;
+}
+
+.abcRioButtonLightBlue {
+    background-color: #f8f9fa;
+}
+
+.thumbnail{
     margin: 15px;
 }

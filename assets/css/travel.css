@@ -111,10 +111,55 @@ body {
 } */
 
 .navbar {
-    background-color: #625772;
-    height: 53px;
+    background-color: #053F48;
+    height: 55px;
 }
 
 .activities-holder {
     display: block;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #f8f9fa;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #f8f9fa;
+}
+
+.navbar-light .navbar-brand {
+    color: #f8f9fa;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: white !important;
+}
+
+.g-signin2 {
+    margin-top: 20px;
+    position: relative;
+    top: 0px;
+    left: 950px;
+}
+
+.abcRioButtonIcon {
+padding: 15px 8px 8px 8px;
+}
+
+#connectedm77q8jo3xgs2 {
+    position: relative;
+    top: -6px;
+    left: -2px;
+    color: #053F48;
+}
+
+#not_signed_in2yc3brpzljl0 {
+    position: relative;
+    top: -6px;
+    left: -2px;
+    color: #053F48;
+}
+
+.abcRioButtonLightBlue {
+    background-color: #f8f9fa;
 }

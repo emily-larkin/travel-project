@@ -47,6 +47,14 @@ link javascript to giphys
         Write down the primary goal of the product. - find locations with that activity 
         Identify and prioritize essential user stories. - As a user, I want to search for an activity and get all of the locations that I could do that activity at... nearest to me first? 
 
+Emily -- Linked Activities API, stored activity clicked in session storage, Google sign in functionality and styling and user auth with firebase
+
+Kayla -- Setup picklist, connected that to Javascript and adding the functionality to get it to close when clicked elsewhere and send to Activity page when clicked on activity, overall styling and css and home page html setup.
+
+Christa -- Styling and CSS with some of the HTML structure for the output page.  Created the Navbar and Footers for home and output pages with them linking our two webpages together. 
+
+Michael -- Giphy api, then not. Worked on the css page for index.html
+
 <!-- 
 Weather API Request
 The base URL for our weather API is 

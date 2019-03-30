@@ -1,5 +1,9 @@
 body {
     background-image: url("../placeholder-images/mountains.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
     background-size: cover;
 }
 
@@ -129,21 +133,15 @@ body {
 .page-footer {
     background-color: #053F48;
     padding-top: 1%;
-    font-size: 12px;
+    font-size: 15px;
     color: white;
-    margin-top: 150px;
+    margin-top: 200px;
     /* height: 150px; */
 }
 
 .container-footer {
     height: 180px;
 }
-
-.row1 {
-    /* height: 100px; */
-}
-
-
 
 #dropdown1 {
     height: 200px;

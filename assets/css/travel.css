@@ -136,22 +136,30 @@ body {
 }
 
 .g-signin2 {
-    margin-top: 17px;
+    margin-top: 20px;
     position: relative;
     top: 0px;
     left: 950px;
-}
-
-.abcRioButtonLightBlue {
-    height: 45px;
 }
 
 .abcRioButtonIcon {
 padding: 15px 8px 8px 8px;
 }
 
-.abcRioButtonContents {
-position: relative;
-top: -8px;
-left: -5px;
+#connectedm77q8jo3xgs2 {
+    position: relative;
+    top: -6px;
+    left: -2px;
+    color: #053F48;
+}
+
+#not_signed_in2yc3brpzljl0 {
+    position: relative;
+    top: -6px;
+    left: -2px;
+    color: #053F48;
+}
+
+.abcRioButtonLightBlue {
+    background-color: #f8f9fa;
 }

@@ -135,4 +135,16 @@ padding: 15px 8px 8px 8px;
     position: relative;
     top: -6px;
     left: -2px;
+    color: #053F48;
+}
+
+#not_signed_in2yc3brpzljl0 {
+    position: relative;
+    top: -6px;
+    left: -2px;
+    color: #053F48;
+}
+
+.abcRioButtonLightBlue {
+    background-color: #f8f9fa;
 }

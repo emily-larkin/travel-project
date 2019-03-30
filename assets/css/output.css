@@ -44,7 +44,7 @@ html {
 }
 
 .list-item {
-    background: #ffffff;
+    background: #f8f9fa;
 
     margin: 10px;
 
@@ -89,7 +89,7 @@ html {
 .navbar {
     background-color: #053F48;
     height: 55px;
-    color: white;
+    color: #f8f9fa;
     text-align: right;
 }
 
@@ -97,7 +97,7 @@ html {
     background-color: #053F48;
     padding-top: 1%;
     font-size: 12px;
-    color: white;
+    color: #f8f9fa;
 }
 
 .nav-link {
@@ -129,6 +129,16 @@ h6 {
 
 .abcRioButtonIcon {
 padding: 15px 8px 8px 8px;
+}
+
+.abcRioButtonLightBlue {
+    background-color: #f8f9fa;
+    color: #053F48
+}
+
+.abcRioButton {
+    background-color: #f8f9fa;
+    color: #053F48
 }
 
 .abcRioButtonContents {

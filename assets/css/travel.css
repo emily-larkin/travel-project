@@ -19,6 +19,7 @@ body {
     color: black;
 }
 
+
 #hiking {
     border-radius: 49% 51% 49% 51% / 51% 50% 50% 49%;
     border: solid 2px black;
@@ -29,6 +30,9 @@ body {
     width: 400px;
     position: absolute;
     right: 873px;
+    z-index: -150;
+    
+    
 
 }
 
@@ -163,3 +167,70 @@ padding: 15px 8px 8px 8px;
 .abcRioButtonLightBlue {
     background-color: #f8f9fa;
 }
+
+/* @media screen and (max-width: 600px) {
+  body {
+    background-image: "../placeholder-images/mountains.jpg";
+    background-size: contain;
+  }
+
+  #hiking {
+    /* Box-model */
+    /* width: 25%;
+    padding: 200px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    background-image: "../placeholder-images/mountains.jpg";
+    background-size: contain;
+  }
+
+  #hiking {
+    /* Box-model */
+    /* width: 25%;
+    padding: 200px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: "../placeholder-images/mountains.jpg";
+    background-size: contain; */
+  /* }
+
+  #hiking {
+    /* Box-model */
+    /* width: 25%;
+    padding: 200px;
+  }
+} */
+
+/* @media screen and (min-width: 992px) {
+  body {
+    background-image: "../placeholder-images/mountains.jpg";
+    background-size: contain;
+  }
+
+  #hiking {
+    /* Box-model */
+    /* width: 25%;
+    padding: 200px; */
+  /* }
+}  */
+
+/* @media screen and (max-width: 1200px) {
+  body {
+    background-image: "../placeholder-images/mountains.jpg";
+    background-size: contain;
+  } */
+
+  /* #hiking {
+    /* Box-model */
+    /* width: 25%;
+    padding: 200px; */
+  /* }
+} */ 
+
+

@@ -55,7 +55,7 @@ Overall application's concept - Christa
 
 I'm going to briefly go over all of our team member's roles and also a challenge I faced. 
 
-Emily -- Linked Activities API, stored activity clicked in session storage, Google sign in functionality and styling and user auth with firebase
+Emily -- Linked Activities API, stored activity clicked in session storage, Google sign in functionality and styling and user auth with firebase. My biggest challenge was working with google sign on, storing something in session storage, and storing from session storage to firebase.
 
 Kayla -- Setup picklist, connected that to Javascript and adding the functionality to get it to close when clicked elsewhere and send to Activity page when clicked on activity, overall styling and css and home page html setup.
 

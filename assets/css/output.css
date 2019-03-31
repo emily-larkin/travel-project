@@ -107,7 +107,6 @@ h6 {
     position: relative;
     top: 0px;
     left: 933px;
-    background-color: #f8f9fa;
     color: #053F48
 }
 
@@ -133,6 +132,15 @@ h6 {
     top: 1px;
     background-color: #f8f9fa;
     color: #053F48
+}
+
+.abcRioButtonContentWrapper {
+    background-color: #f8f9fa;
+    color: #053F48
+}
+
+.abcRioButtonIcon {
+    background-color: #f8f9fa;
 }
 
 img {

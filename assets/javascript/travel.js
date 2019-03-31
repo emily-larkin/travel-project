@@ -50,16 +50,13 @@ $(document).ready(function () {
     });
   });
 
-
-  var name = "";
-
   // on click function to call the api, sends activity clicked to session storage 
   $(".dropdown-content").on("click", function (e) {
     event.preventDefault();
     sessionStorage.setItem("activityName", e.target.innerHTML);
     $("#dropdown1").innerHTML = sessionStorage.getItem(e.target.innerHTML);
 
-    var nameData = $("#dropdown1").val().getItem(e.target.innerHTML);
+    var nameData = sessionStorage.getItem("activityName");
 
     var activityNaming = ({
       name: nameData,
@@ -67,10 +64,6 @@ $(document).ready(function () {
     });
 
     database.ref().push(activityNaming);
-  });
-
-  database.ref().on("child_added", function (childSnapshot) {
-    var sv = childSnapshot.val();
   });
 
 }); // end of document ready

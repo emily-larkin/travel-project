@@ -157,7 +157,6 @@ body {
     position: relative;
     top: 0px;
     left: 950px;
-    background-color: #f8f9fa;
     color: #053F48
 }
 
@@ -181,6 +180,10 @@ body {
     position: relative;
     top: -15px;
     left: -5px;
+}
+
+.abcRioButtonIcon {
+    background-color: #f8f9fa;
 }
 
 @media screen and (max-width: 600px) {

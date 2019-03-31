@@ -59,7 +59,7 @@ $(document).ready(function () {
     sessionStorage.setItem("activityName", e.target.innerHTML);
     $("#dropdown1").innerHTML = sessionStorage.getItem(e.target.innerHTML);
 
-    var nameData = $("#dropdown1").val();
+    var nameData = $("#dropdown1").val().getItem(e.target.innerHTML);
 
     var activityNaming = ({
       name: nameData,

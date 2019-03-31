@@ -217,7 +217,7 @@ body {
     .btn-large,
     .btn-small {
         position: static;
-        margin-top: 85px;
+        margin-top: 250px;
     }
 }
 
@@ -256,7 +256,7 @@ body {
     .btn-large,
     .btn-small {
         position: static;
-        margin-top: 100px;
+        margin-top: 250px;
     }
 }
 
@@ -294,7 +294,7 @@ body {
     .btn-large,
     .btn-small {
         position: static;
-        margin-top: 200px;
+        margin-top: 250px;
     }
 }
 

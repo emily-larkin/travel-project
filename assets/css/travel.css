@@ -139,7 +139,9 @@ body {
     font-size: 15px;
     color: #f8f9fa;
     margin-top: 200px;
-    /* height: 150px; */
+    /* width: 100%;
+    position: fixed;
+    bottom: 0; */
 }
 
 .container-footer {

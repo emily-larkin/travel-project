@@ -46,16 +46,25 @@ link javascript to giphys
         Identify the problem that the product will address. - idk where this activity is? 
         Write down the primary goal of the product. - find locations with that activity 
         Identify and prioritize essential user stories. - As a user, I want to search for an activity and get all of the locations that I could do that activity at... nearest to me first? 
+    
+Motivation for it's development -Christa
+    - So we all know staring at a computer screen day in and day out can be fun but as a team we wanted to find a way to breakup the mundane work day and give users a fun and easy way to get away from the screen and find their next adventure.  We created  The Adventure Setter!!!! 
 
-Emily -- Linked Activities API, stored activity clicked in session storage, Google sign in functionality and styling and user auth with firebase
+Overall application's concept - Christa
+    -The concept for our website is to land on a fun and engaging home page that gets the user excited about their next thrilling, heart pounding adventure.  Once the user seees what they're missing out on, they can click on our drop-down menu to then click the particular activity that is calling their name.  That clicked activity will then populate a list of local options in their area. Voila, after grabbing their wallet and putting some pants on, they are no longer a bored coder staring at their screen. 
+
+I'm going to briefly go over all of our team member's roles and also a challenge I faced. 
+
+Emily -- Linked Activities API, stored activity clicked in session storage, Google sign in functionality and styling and user auth with firebase. My biggest challenge was working with google sign on, storing something in session storage, and storing from session storage to firebase.
 
 Kayla -- Setup picklist, connected that to Javascript and adding the functionality to get it to close when clicked elsewhere and send to Activity page when clicked on activity, overall styling and css and home page html setup.
 
+Michael -- Giphy Images and placement, background image, mobile responsiveness 
+
+Ashlyn -- Developed most of the HTML structure and styling of the output page.  Along with the scroll list and its functionality.
+
 Christa -- Styling and CSS with some of the HTML structure for the output page.  Created the Navbar and Footers for home and output pages with them linking our two webpages together. 
-
-Michael -- Giphy api, then not. Worked on the css page for index.html
-
-Ashlyn -- Developed the functionality for 
+Besides the innate challenges that come with using GitHub, my biggest challenge was probably styling the footer on the home page.  In order to get the placement of our gif images where we wanted, a lot of absolute positioning made.  We later found out that made sticking the footer to the bottom of our page very difficult without also having the gif images overlap our footer element. 
 
 <!-- 
 Weather API Request
